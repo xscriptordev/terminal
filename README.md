@@ -2,9 +2,15 @@
 
 ---
 
-<p align="center"> <img src="./assets/icon.png" width="200" alt="Xscriptor Theme logo" /> </p>
+<div align="center">
+
+![rust](https://xscriptordev.github.io/badges/languages/rust.svg) ![shell](https://xscriptordev.github.io/badges/languages/shell.svg)
 
 Essential settings to improve accessibility of helix using the Xscriptor themes.
+
+</div>
+
+<p align="center"> <img src="./assets/icon.png" width="100" alt="Xscriptor Theme logo" /> </p>
 
 
 ![Preview](./assets/preview/preview01.png)
@@ -74,3 +80,8 @@ sh -c "$(wget -qO- https://raw.githubusercontent.com/xscriptordev/helix/main/ins
   theme = "x"
   ```
 - Available themes are installed in ~/.config/helix/themes (e.g., "oslo", "tokio", "berlin", etc.). Change the value to any theme filename (without .toml).
+
+
+## LICENSE:
+
+[MIT](./LICENSE)
