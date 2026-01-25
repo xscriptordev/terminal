@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![helix](https://xscriptordev.github.io/badges/editors/helix.svg) ![rust](https://xscriptordev.github.io/badges/languages/rust.svg) ![shell](https://xscriptordev.github.io/badges/languages/shell.svg) 
+![helix](https://xscriptordev.github.io/badges/editors/helix.svg) ![rust](https://xscriptordev.github.io/badges/languages/rust.svg) ![shell](https://xscriptordev.github.io/badges/languages/shell.svg) ![mit](https://xscriptordev.github.io/badges/licenses/mit.svg)
 
 Essential settings to improve accessibility of helix using the Xscriptor themes.
 
@@ -10,10 +10,39 @@ Essential settings to improve accessibility of helix using the Xscriptor themes.
 
 <p align="center"> <img src="./assets/icon.png" width="100" alt="Xscriptor Theme logo" /> </p>
 
-## Preview:
- 
-![Preview](./assets/preview/preview01.png)
 
+
+<h2 align="center"> Previews </h1>
+
+<p align="center">
+  <a href="./assets/previews/preview01png">
+    <img src="./assets/previews/preview01.png" alt="Main preview" width="850"/>
+  </a>
+</p>
+
+<details>
+  <summary>More previews</summary>
+
+  <table>
+    <tr>
+      <td align="center">
+        <a href="./assets/previews/preview02.png">
+          <img src="./assets/previews/preview02.png" alt="Preview 2" width="380"/>
+        </a>
+      </td>
+      <td align="center">
+        <a href="./assets/previews/preview03.png">
+          <img src="./assets/previews/preview03.png" alt="Preview 3" width="380"/>
+        </a>
+      </td>
+      <td align="center">
+        <a href="./assets/previews/preview04.png">
+          <img src="./assets/previews/preview04.png" alt="Preview 4" width="380"/>
+        </a>
+      </td>
+    </tr>
+  </table>
+</details>
 
 
 ## Installation
