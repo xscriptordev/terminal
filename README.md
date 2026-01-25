@@ -1,10 +1,8 @@
 <h1 align="center"> Xscriptor Helix </h1>
 
----
-
 <div align="center">
 
-![rust](https://xscriptordev.github.io/badges/languages/rust.svg) ![shell](https://xscriptordev.github.io/badges/languages/shell.svg)
+![helix](https://xscriptordev.github.io/badges/editors/helix.svg) ![rust](https://xscriptordev.github.io/badges/languages/rust.svg) ![shell](https://xscriptordev.github.io/badges/languages/shell.svg) 
 
 Essential settings to improve accessibility of helix using the Xscriptor themes.
 
@@ -12,7 +10,8 @@ Essential settings to improve accessibility of helix using the Xscriptor themes.
 
 <p align="center"> <img src="./assets/icon.png" width="100" alt="Xscriptor Theme logo" /> </p>
 
-
+## Preview:
+ 
 ![Preview](./assets/preview/preview01.png)
 
 
