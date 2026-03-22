@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 set -eu
 
-DEFAULT_REPO_URL="https://github.com/xscriptordev/helix"
+DEFAULT_REPO_URL="https://github.com/xscriptor/helix"
 BRANCH="main"
 MODE="complete"
 DRY_RUN="0"
@@ -27,8 +27,8 @@ Options:
   --help               Show this help
 
 Remote usage:
-  sh -c "\$(curl -fsSL https://raw.githubusercontent.com/xscriptordev/helix/main/install.sh)" -- [options]
-  sh -c "\$(wget -qO- https://raw.githubusercontent.com/xscriptordev/helix/main/install.sh)" -- [options]
+  sh -c "\$(curl -fsSL https://raw.githubusercontent.com/xscriptor/helix/main/install.sh)" -- [options]
+  sh -c "\$(wget -qO- https://raw.githubusercontent.com/xscriptor/helix/main/install.sh)" -- [options]
 EOF
 }
 

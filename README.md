@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![helix](https://xscriptordev.github.io/badges/editors/helix.svg) ![rust](https://xscriptordev.github.io/badges/languages/rust.svg) ![shell](https://xscriptordev.github.io/badges/languages/shell.svg) ![mit](https://xscriptordev.github.io/badges/licenses/mit.svg)
+![helix](https://xscriptor.github.io/badges/editors/helix.svg) ![rust](https://xscriptor.github.io/badges/languages/rust.svg) ![shell](https://xscriptor.github.io/badges/languages/shell.svg) ![mit](https://xscriptor.github.io/badges/licenses/mit.svg)
 
 Essential settings to improve accessibility of helix using the Xscriptor themes.
 
@@ -51,26 +51,26 @@ Quick remote install using curl or wget:
 
 ```bash
 # Complete (config + themes) with curl
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/xscriptordev/helix/main/install.sh)" -- --complete
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/xscriptor/helix/main/install.sh)" -- --complete
 
 # Complete (config + themes) with wget
-sh -c "$(wget -qO- https://raw.githubusercontent.com/xscriptordev/helix/main/install.sh)" -- --complete
+sh -c "$(wget -qO- https://raw.githubusercontent.com/xscriptor/helix/main/install.sh)" -- --complete
 ```
 
 Other modes:
 
 ```bash
 # Themes only
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/xscriptordev/helix/main/install.sh)" -- --themes-only
-sh -c "$(wget -qO- https://raw.githubusercontent.com/xscriptordev/helix/main/install.sh)" -- --themes-only
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/xscriptor/helix/main/install.sh)" -- --themes-only
+sh -c "$(wget -qO- https://raw.githubusercontent.com/xscriptor/helix/main/install.sh)" -- --themes-only
 
 # Minimal config + themes
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/xscriptordev/helix/main/install.sh)" -- --minimal
-sh -c "$(wget -qO- https://raw.githubusercontent.com/xscriptordev/helix/main/install.sh)" -- --minimal
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/xscriptor/helix/main/install.sh)" -- --minimal
+sh -c "$(wget -qO- https://raw.githubusercontent.com/xscriptor/helix/main/install.sh)" -- --minimal
 
 # Custom branch or repository
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/xscriptordev/helix/main/install.sh)" -- --branch main --repo https://github.com/xscriptordev/helix
-sh -c "$(wget -qO- https://raw.githubusercontent.com/xscriptordev/helix/main/install.sh)" -- --branch main --repo https://github.com/xscriptordev/helix
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/xscriptor/helix/main/install.sh)" -- --branch main --repo https://github.com/xscriptor/helix
+sh -c "$(wget -qO- https://raw.githubusercontent.com/xscriptor/helix/main/install.sh)" -- --branch main --repo https://github.com/xscriptor/helix
 ```
 
 ## Script Options
@@ -79,7 +79,7 @@ sh -c "$(wget -qO- https://raw.githubusercontent.com/xscriptordev/helix/main/ins
 - --minimal: install minimal config + themes
 - --complete: install complete config + themes (default)
 - --branch <name>: remote branch to use (default: main)
-- --repo <url>: remote repository URL (default: https://github.com/xscriptordev/helix)
+- --repo <url>: remote repository URL (default: https://github.com/xscriptor/helix)
 - --dry-run: show actions without executing
 - --force: overwrite without creating backup
 - --no-backup: do not create a backup of existing config
