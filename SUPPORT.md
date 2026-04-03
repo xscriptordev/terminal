@@ -1,7 +1,7 @@
 <h1>Support</h1>
 
 <p>
-Need help with X themes.
+Need help with X themes?
 </p>
 
 <h2>Get Help</h2>
