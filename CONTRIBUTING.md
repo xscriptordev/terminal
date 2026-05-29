@@ -42,7 +42,8 @@
 
 <h3 align="center"> Themes (TOML) </h3>
 <ul>
-  <li>All themes must be located in the <code>themes/</code> directory.</li>
+  <li>Active themes must be located in the <code>themes/</code> directory (archived themes go in <code>old/</code>).</li>
+  <li>Keep color palettes aligned with <code>colors.md</code> to avoid drift.</li>
   <li>Ensure the color palette follows accessibility standards (good contrast).</li>
   <li>Use standard Helix scope names to ensure compatibility with different languages.</li>
 </ul>

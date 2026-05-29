@@ -58,7 +58,7 @@ punctuation = { fg = "muted" }
 rainbow = ["color1", "color2", "color3", "color4", "color5", "color6"]
 
 [palette]
-bg = "#363537"
+bg = "#0a0a0a"
 fg = "#f7f1ff"
 muted = "#69676c"
 menu = "#363537"

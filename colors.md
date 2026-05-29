@@ -1,10 +1,11 @@
-# Schemes
+<h1 align="center">Colors</h1>
 
-## x
+
+<h2 align="center">X</h2>
 
 ```json
 {
-    "color0":  "#363537",
+    "color0":  "#0a0a0a",
     "color1":  "#fc618d",
     "color2":  "#7bd88f",
     "color3":  "#fce566",
@@ -23,30 +24,30 @@
 }
 ```
 
-## madrid
+<h2 align="center">Madrid</h2>
 
 ```json
 {
-    "color0":  "#333333",
-    "color1":  "#cc0033",
-    "color2":  "#009933",
-    "color3":  "#b8860b",
-    "color4":  "#0099cc",
-    "color5":  "#6633cc",
-    "color6":  "#0099cc",
+    "color0":  "#fafafa",
+    "color1":  "#990026",
+    "color2":  "#007a28",
+    "color3":  "#8a6408",
+    "color4":  "#007a9e",
+    "color5":  "#4d2699",
+    "color6":  "#007a9e",
     "color7":  "#1a1a1a",
-    "color8":  "#666666",
-    "color9":  "#cc0033",
-    "color10": "#009933",
-    "color11": "#b8860b",
-    "color12": "#0099cc",
-    "color13": "#6633cc",
-    "color14": "#0099cc",
+    "color8":  "#4d4d4d",
+    "color9":  "#990026",
+    "color10": "#007a28",
+    "color11": "#8a6408",
+    "color12": "#007a9e",
+    "color13": "#4d2699",
+    "color14": "#007a9e",
     "color15": "#1a1a1a"
 }
 ```
 
-## lahabana
+<h2 align="center">Lahabana</h2>
 
 ```json
 {
@@ -69,30 +70,7 @@
 }
 ```
 
-## seul
-
-```json
-{
-    "color0":  "#1b1b1bff",
-    "color1":  "#FF4C8B",
-    "color2":  "#7FFFD4",
-    "color3":  "#FFD84C",
-    "color4":  "#00FFA8",
-    "color5":  "#D36CFF",
-    "color6":  "#47CFFF",
-    "color7":  "#f7f1ff",
-    "color8":  "#69676c",
-    "color9":  "#FF4C8B",
-    "color10": "#7FFFD4",
-    "color11": "#FFD84C",
-    "color12": "#00FFA8",
-    "color13": "#D36CFF",
-    "color14": "#47CFFF",
-    "color15": "#f7f1ff"
-}
-```
-
-## miami
+<h2 align="center">Miami</h2>
 
 ```json
 {
@@ -115,11 +93,11 @@
 }
 ```
 
-## paris
+<h2 align="center">Paris</h2>
 
 ```json
 {
-    "color0":  "#222222",
+    "color0":  "#10081a",
     "color1":  "#fc618d",
     "color2":  "#7bd88f",
     "color3":  "#fce566",
@@ -138,7 +116,7 @@
 }
 ```
 
-## tokio
+<h2 align="center">Tokio</h2>
 
 ```json
 {
@@ -161,7 +139,7 @@
 }
 ```
 
-## oslo
+<h2 align="center">Oslo</h2>
 
 ```json
 {
@@ -184,18 +162,18 @@
 }
 ```
 
-## helsinki
+<h2 align="center">Helsinki</h2>
 
 ```json
 {
-    "color0":  "#c0bbae",
+    "color0":  "#f8fafe",
     "color1":  "#1faa9e",
     "color2":  "#733d9a",
     "color3":  "#2e70ad",
     "color4":  "#b55a0f",
     "color5":  "#3e9d21",
     "color6":  "#bd4c3d",
-    "color7":  "#191919",
+    "color7":  "#544d40",
     "color8":  "#b0a999",
     "color9":  "#009e91",
     "color10": "#5a1f8a",
@@ -207,7 +185,7 @@
 }
 ```
 
-## berlin
+<h2 align="center">Berlin</h2>
 
 ```json
 {
@@ -230,18 +208,18 @@
 }
 ```
 
-## london
+<h2 align="center">London</h2>
 
 ```json
 {
-    "color0":  "#000000",
+    "color0":  "#ffffff",
     "color1":  "#333333",
     "color2":  "#444444",
     "color3":  "#555555",
     "color4":  "#666666",
     "color5":  "#777777",
     "color6":  "#888888",
-    "color7":  "#999999",
+    "color7":  "#333333",
     "color8":  "#333333",
     "color9":  "#444444",
     "color10": "#555555",
@@ -253,7 +231,7 @@
 }
 ```
 
-## praha
+<h2 align="center">Praha</h2>
 
 ```json
 {
@@ -276,11 +254,11 @@
 }
 ```
 
-## bogota
+<h2 align="center">Bogota</h2>
 
 ```json
 {
-    "color0":  "#222222",
+    "color0":  "#140606",
     "color1":  "#fc618d",
     "color2":  "#7bd88f",
     "color3":  "#ffed89",
