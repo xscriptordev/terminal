@@ -1,21 +1,32 @@
-<h1 align="center">X OpenCode</h1>
-
-<p align="center"><img src="https://raw.githubusercontent.com/xscriptor/xassets/main/xrepos/opencode/logo.svg" width="100" alt="Opencode Xscriptor logo" /></p>
+<h1>Xscriptor OpenCode</h1>
 
 <p>A collection of themes, configurations, and tooling for <a href="https://opencode.ai">OpenCode</a>, the open source AI coding agent for the terminal.</p>
 
 <p>This repository contains carefully crafted terminal color schemes translated into OpenCode's semantic theme format, along with utilities for installation and management.</p>
 
+<h2>Table of Contents</h2>
 
-<h2 align="center">Contents</h2>
+<ul>
+  <li><a href="#contents">Contents</a></li>
+  <li><a href="#themes">Themes</a></li>
+  <li><a href="#quick-start">Quick Start</a></li>
+  <li><a href="#related-documents">Related Documents</a></li>
+  <li><a href="#resources">Resources</a></li>
+  <li><a href="#license">License</a></li>
+  <li><a href="#x">X</a></li>
+</ul>
+
+<h2 id="contents">Contents</h2>
 
 <ul>
   <li><a href="colors.md"><code>colors.md</code></a> - ANSI terminal color palette definitions (12 schemes)</li>
   <li><a href="themes/xscriptor-themes/"><code>themes/xscriptor-themes/</code></a> - OpenCode theme JSON files ready to use</li>
   <li><a href="themes/xscriptor-themes/install.sh"><code>install.sh</code></a> - Automated installation script (local or remote)</li>
+  <li><a href="labs/"><code>labs/</code></a> - Experimental tools and prototypes</li>
+  <li><a href="scripts/build/README.md"><code>scripts/build/</code></a> - Theme build automation</li>
 </ul>
 
-<h2 align="center">Themes</h2>
+<h2 id="themes">Themes</h2>
 
 <table>
   <thead>
@@ -89,7 +100,7 @@
   </tbody>
 </table>
 
-<h2 align="center">Quick Start</h2>
+<h2 id="quick-start">Quick Start</h2>
 
 <pre><code>curl -fsSL https://raw.githubusercontent.com/xscriptor/opencode/main/themes/xscriptor-themes/install.sh | bash</code></pre>
 
@@ -99,7 +110,16 @@
   "theme": "x"
 }</code></pre>
 
-<h2 align="center">Resources</h2>
+<h2 id="related-documents">Related Documents</h2>
+
+<ul>
+  <li><a href="CONTRIBUTING.md">Contributing Guide</a> - How to contribute to this project</li>
+  <li><a href="SECURITY.md">Security Policy</a> - Reporting vulnerabilities</li>
+  <li><a href="CODE_OF_CONDUCT.md">Code of Conduct</a> - Community guidelines</li>
+  <li><a href="LICENSE">License</a> - MIT License</li>
+</ul>
+
+<h2 id="resources">Resources</h2>
 
 <ul>
   <li><a href="https://opencode.ai">OpenCode Website</a></li>
@@ -108,6 +128,20 @@
   <li><a href="themes/xscriptor-themes/README.md">Theme Installation Guide</a></li>
 </ul>
 
-<h2 align="center">License</h2>
 
-<p>MIT</p>
+<div id="x" align="center">
+<h2>X</h2>
+
+<a href="https://dev.xscriptor.com">
+  <img src="https://xscriptor.github.io/icons/icons/code/product-design/xsvg/verified-filled.svg" width="24" alt="X Web" />
+</a>
+ & 
+<a href="https://github.com/xscriptor">
+  <img src="https://xscriptor.github.io/icons/icons/code/product-design/xsvg/github.svg" width="24" alt="X Github Profile" />
+</a>
+ & 
+<a href="https://www.xscriptor.com">
+  <img src="https://xscriptor.github.io/icons/icons/code/product-design/xsvg/quotes.svg" width="24" alt="Xscriptor web" />
+</a>
+
+</div>
