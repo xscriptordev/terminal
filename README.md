@@ -135,6 +135,7 @@ sh -c "$(wget -qO- https://raw.githubusercontent.com/xscriptor/helix/main/instal
   <li><a href="./CODE_OF_CONDUCT.md">Code of Conduct</a></li>
   <li><a href="./CONTRIBUTING.md">Contributions</a></li>
   <li><a href="./ROADMAP.md">Roadmap</a></li>
+  <li><a href="./colors.md">Colors</a></li>
 </ul>
 
 
