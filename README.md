@@ -1,10 +1,13 @@
-<h1>Xscriptor OpenCode</h1>
+<h1 align="center">X OpenCode</h1>
+
+<p align="center"><img src="https://raw.githubusercontent.com/xscriptor/xassets/main/xrepos/opencode/logo.svg" width="100" alt="Opencode Xscriptor logo" /></p>
 
 <p>A collection of themes, configurations, and tooling for <a href="https://opencode.ai">OpenCode</a>, the open source AI coding agent for the terminal.</p>
 
 <p>This repository contains carefully crafted terminal color schemes translated into OpenCode's semantic theme format, along with utilities for installation and management.</p>
 
-<h2>Contents</h2>
+
+<h2 align="center">Contents</h2>
 
 <ul>
   <li><a href="colors.md"><code>colors.md</code></a> - ANSI terminal color palette definitions (12 schemes)</li>
@@ -12,7 +15,7 @@
   <li><a href="themes/xscriptor-themes/install.sh"><code>install.sh</code></a> - Automated installation script (local or remote)</li>
 </ul>
 
-<h2>Themes</h2>
+<h2 align="center">Themes</h2>
 
 <table>
   <thead>
@@ -86,7 +89,7 @@
   </tbody>
 </table>
 
-<h2>Quick Start</h2>
+<h2 align="center">Quick Start</h2>
 
 <pre><code>curl -fsSL https://raw.githubusercontent.com/xscriptor/opencode/main/themes/xscriptor-themes/install.sh | bash</code></pre>
 
@@ -96,7 +99,7 @@
   "theme": "x"
 }</code></pre>
 
-<h2>Resources</h2>
+<h2 align="center">Resources</h2>
 
 <ul>
   <li><a href="https://opencode.ai">OpenCode Website</a></li>
@@ -105,6 +108,6 @@
   <li><a href="themes/xscriptor-themes/README.md">Theme Installation Guide</a></li>
 </ul>
 
-<h2>License</h2>
+<h2 align="center">License</h2>
 
 <p>MIT</p>
