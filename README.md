@@ -1,10 +1,12 @@
-<h1>Xscriptor OpenCode</h1>
+<h1 align="center">Xscriptor OpenCode</h1>
+
+<p align="center"><img src="https://raw.githubusercontent.com/xscriptor/xassets/main/xrepos/opencode/logo.svg" width="100" alt="Opencode Xscriptor logo" /></p>
 
 <p>A collection of themes, configurations, and tooling for <a href="https://opencode.ai">OpenCode</a>, the open source AI coding agent for the terminal.</p>
 
 <p>This repository contains carefully crafted terminal color schemes translated into OpenCode's semantic theme format, along with utilities for installation and management.</p>
 
-<h2>Table of Contents</h2>
+<h2 align="center">Table of Contents</h2>
 
 <ul>
   <li><a href="#contents">Contents</a></li>
@@ -16,7 +18,7 @@
   <li><a href="#x">X</a></li>
 </ul>
 
-<h2 id="contents">Contents</h2>
+<h2 align="center" id="contents">Contents</h2>
 
 <ul>
   <li><a href="colors.md"><code>colors.md</code></a> - ANSI terminal color palette definitions (12 schemes)</li>
@@ -26,7 +28,7 @@
   <li><a href="scripts/build/README.md"><code>scripts/build/</code></a> - Theme build automation</li>
 </ul>
 
-<h2 id="themes">Themes</h2>
+<h2 align="center" id="themes">Themes</h2>
 
 <table>
   <thead>
@@ -100,7 +102,7 @@
   </tbody>
 </table>
 
-<h2 id="quick-start">Quick Start</h2>
+<h2 align="center" id="quick-start">Quick Start</h2>
 
 <pre><code>curl -fsSL https://raw.githubusercontent.com/xscriptor/opencode/main/themes/xscriptor-themes/install.sh | bash</code></pre>
 
@@ -110,7 +112,7 @@
   "theme": "x"
 }</code></pre>
 
-<h2 id="related-documents">Related Documents</h2>
+<h2 align="center" id="related-documents">Related Documents</h2>
 
 <ul>
   <li><a href="CONTRIBUTING.md">Contributing Guide</a> - How to contribute to this project</li>
@@ -119,7 +121,7 @@
   <li><a href="LICENSE">License</a> - MIT License</li>
 </ul>
 
-<h2 id="resources">Resources</h2>
+<h2 align="center" id="resources">Resources</h2>
 
 <ul>
   <li><a href="https://opencode.ai">OpenCode Website</a></li>
@@ -130,7 +132,7 @@
 
 
 <div id="x" align="center">
-<h2>X</h2>
+<h2 align="center">X</h2>
 
 <a href="https://dev.xscriptor.com">
   <img src="https://xscriptor.github.io/icons/icons/code/product-design/xsvg/verified-filled.svg" width="24" alt="X Web" />
