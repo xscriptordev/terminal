@@ -125,7 +125,7 @@ sh -c "$(wget -qO- https://raw.githubusercontent.com/xscriptor/helix/main/instal
 <p>Set a theme in your Helix config:</p>
 <pre><code>theme = "x"</code></pre>
 
-<p>Available themes are installed in ~/.config/helix/themes (e.g., "oslo", "tokio", "berlin", etc.). Change the value to any theme filename (without .toml).</p>
+<p>Available themes are installed in ~/.config/helix/themes (e.g., "oslo", "tokio", "berlin", etc.). Change the value to any theme filename (without .toml). Archived themes live in <code>old/</code> and are not installed.</p>
 
 
 <h2 align="center" id="related-documents">Related Documents</h2>

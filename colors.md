@@ -5,7 +5,7 @@
 
 ```json
 {
-    "color0":  "#363537",
+    "color0":  "#0a0a0a",
     "color1":  "#fc618d",
     "color2":  "#7bd88f",
     "color3":  "#fce566",
