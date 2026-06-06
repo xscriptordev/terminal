@@ -1,0 +1,52 @@
+{
+  "id": "praha",
+  "name": "Praha",
+  "author": "xscriptor-terax-themes",
+  "description": "Dark and dramatic with pink, cyan, and purple. Bohemian night.",
+  "editorTheme": { "dark": "atomone" },
+  "variants": {
+    "dark": {
+      "colors": {
+        "background": "#1A1A1A",
+        "foreground": "#FFFFFF",
+        "card": "#242428",
+        "cardForeground": "#FFFFFF",
+        "popover": "#242428",
+        "popoverForeground": "#FFFFFF",
+        "primary": "#BD93F9",
+        "primaryForeground": "#1A1A1A",
+        "secondary": "#2e2e34",
+        "secondaryForeground": "#FFFFFF",
+        "muted": "#2e2e34",
+        "mutedForeground": "#6272A4",
+        "accent": "#2e2e34",
+        "accentForeground": "#FFFFFF",
+        "destructive": "#FF5555",
+        "border": "rgba(255,255,255,0.08)",
+        "input": "rgba(255,255,255,0.12)",
+        "ring": "#BD93F9",
+        "sidebar": "#1A1A1A",
+        "sidebarForeground": "#FFFFFF",
+        "sidebarPrimary": "#BD93F9",
+        "sidebarPrimaryForeground": "#1A1A1A",
+        "sidebarAccent": "#2e2e34",
+        "sidebarAccentForeground": "#FFFFFF",
+        "sidebarBorder": "rgba(255,255,255,0.08)",
+        "sidebarRing": "#BD93F9"
+      },
+      "terminal": {
+        "background": "#1A1A1A",
+        "foreground": "#FFFFFF",
+        "cursor": "#8BE9FD",
+        "cursorAccent": "#1A1A1A",
+        "selection": "rgba(189,147,249,0.22)",
+        "ansi": [
+          "#1A1A1A", "#FF5555", "#B8E6A0", "#FFE4A3",
+          "#BD93F9", "#FF9AA2", "#8BE9FD", "#FFFFFF",
+          "#6272A4", "#FF6E6E", "#B8E6A0", "#FFE4A3",
+          "#D6ACFF", "#FF9AA2", "#A4FFFF", "#FFFFFF"
+        ]
+      }
+    }
+  }
+}

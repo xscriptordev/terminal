@@ -1,0 +1,52 @@
+{
+  "id": "berlin",
+  "name": "Berlin",
+  "author": "xscriptor-terax-themes",
+  "description": "Greyscale monochrome. Brutalist, minimal, distraction-free.",
+  "editorTheme": { "light": "github-light" },
+  "variants": {
+    "dark": {
+      "colors": {
+        "background": "#000000",
+        "foreground": "#ffffff",
+        "card": "#111111",
+        "cardForeground": "#ffffff",
+        "popover": "#111111",
+        "popoverForeground": "#ffffff",
+        "primary": "#cccccc",
+        "primaryForeground": "#000000",
+        "secondary": "#1a1a1a",
+        "secondaryForeground": "#ffffff",
+        "muted": "#1a1a1a",
+        "mutedForeground": "#999999",
+        "accent": "#1a1a1a",
+        "accentForeground": "#ffffff",
+        "destructive": "#999999",
+        "border": "rgba(255,255,255,0.12)",
+        "input": "rgba(255,255,255,0.16)",
+        "ring": "#dddddd",
+        "sidebar": "#0a0a0a",
+        "sidebarForeground": "#ffffff",
+        "sidebarPrimary": "#dddddd",
+        "sidebarPrimaryForeground": "#000000",
+        "sidebarAccent": "#1a1a1a",
+        "sidebarAccentForeground": "#ffffff",
+        "sidebarBorder": "rgba(255,255,255,0.12)",
+        "sidebarRing": "#dddddd"
+      },
+      "terminal": {
+        "background": "#000000",
+        "foreground": "#ffffff",
+        "cursor": "#ffffff",
+        "cursorAccent": "#000000",
+        "selection": "rgba(255,255,255,0.20)",
+        "ansi": [
+          "#000000", "#999999", "#bbbbbb", "#dddddd",
+          "#888888", "#aaaaaa", "#cccccc", "#ffffff",
+          "#333333", "#bbbbbb", "#dddddd", "#ffffff",
+          "#aaaaaa", "#cccccc", "#eeeeee", "#ffffff"
+        ]
+      }
+    }
+  }
+}

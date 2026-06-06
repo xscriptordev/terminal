@@ -1,0 +1,52 @@
+{
+  "id": "xscriptor",
+  "name": "Xscriptor",
+  "author": "xscriptor-terax-themes",
+  "description": "Near-black background with vibrant neon accents. High contrast for late-night coding.",
+  "editorTheme": { "dark": "atomone" },
+  "variants": {
+    "dark": {
+      "colors": {
+        "background": "#0a0a0a",
+        "foreground": "#f7f1ff",
+        "card": "#121214",
+        "cardForeground": "#f7f1ff",
+        "popover": "#121214",
+        "popoverForeground": "#f7f1ff",
+        "primary": "#fc618d",
+        "primaryForeground": "#0a0a0a",
+        "secondary": "#1a1a1e",
+        "secondaryForeground": "#f7f1ff",
+        "muted": "#1a1a1e",
+        "mutedForeground": "#69676c",
+        "accent": "#1a1a1e",
+        "accentForeground": "#f7f1ff",
+        "destructive": "#fc618d",
+        "border": "rgba(247,241,255,0.08)",
+        "input": "rgba(247,241,255,0.12)",
+        "ring": "#948ae3",
+        "sidebar": "#0a0a0a",
+        "sidebarForeground": "#f7f1ff",
+        "sidebarPrimary": "#fc618d",
+        "sidebarPrimaryForeground": "#0a0a0a",
+        "sidebarAccent": "#1a1a1e",
+        "sidebarAccentForeground": "#f7f1ff",
+        "sidebarBorder": "rgba(247,241,255,0.08)",
+        "sidebarRing": "#948ae3"
+      },
+      "terminal": {
+        "background": "#0a0a0a",
+        "foreground": "#f7f1ff",
+        "cursor": "#f7f1ff",
+        "cursorAccent": "#0a0a0a",
+        "selection": "rgba(252,97,141,0.25)",
+        "ansi": [
+          "#0a0a0a", "#fc618d", "#7bd88f", "#fce566",
+          "#fd9353", "#948ae3", "#5ad4e6", "#f7f1ff",
+          "#69676c", "#fc618d", "#7bd88f", "#fce566",
+          "#fd9353", "#948ae3", "#5ad4e6", "#f7f1ff"
+        ]
+      }
+    }
+  }
+}

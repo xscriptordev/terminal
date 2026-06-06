@@ -1,0 +1,52 @@
+{
+  "id": "bogota",
+  "name": "Bogota",
+  "author": "xscriptor-terax-themes",
+  "description": "Deep crimson-black with hot pink and electric cyan. Warm and intense.",
+  "editorTheme": { "dark": "atomone" },
+  "variants": {
+    "dark": {
+      "colors": {
+        "background": "#140606",
+        "foreground": "#f7f1ff",
+        "card": "#1e1010",
+        "cardForeground": "#f7f1ff",
+        "popover": "#1e1010",
+        "popoverForeground": "#f7f1ff",
+        "primary": "#ff9999",
+        "primaryForeground": "#140606",
+        "secondary": "#261818",
+        "secondaryForeground": "#f7f1ff",
+        "muted": "#261818",
+        "mutedForeground": "#525053",
+        "accent": "#261818",
+        "accentForeground": "#f7f1ff",
+        "destructive": "#fc618d",
+        "border": "rgba(247,241,255,0.10)",
+        "input": "rgba(247,241,255,0.14)",
+        "ring": "#47e6ff",
+        "sidebar": "#140606",
+        "sidebarForeground": "#f7f1ff",
+        "sidebarPrimary": "#47e6ff",
+        "sidebarPrimaryForeground": "#140606",
+        "sidebarAccent": "#261818",
+        "sidebarAccentForeground": "#f7f1ff",
+        "sidebarBorder": "rgba(247,241,255,0.10)",
+        "sidebarRing": "#47e6ff"
+      },
+      "terminal": {
+        "background": "#140606",
+        "foreground": "#f7f1ff",
+        "cursor": "#47e6ff",
+        "cursorAccent": "#140606",
+        "selection": "rgba(71,230,255,0.22)",
+        "ansi": [
+          "#140606", "#fc618d", "#7bd88f", "#ffed89",
+          "#47e6ff", "#ff9999", "#47e6ff", "#f7f1ff",
+          "#525053", "#fc618d", "#7bd88f", "#ffed89",
+          "#47e6ff", "#ff9999", "#47e6ff", "#f7f1ff"
+        ]
+      }
+    }
+  }
+}

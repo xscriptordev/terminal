@@ -1,0 +1,52 @@
+{
+  "id": "tokio",
+  "name": "Tokio",
+  "author": "xscriptor-terax-themes",
+  "description": "Dark graphite surfaces with warm orange accents and electric blue. Tokyo nightscape.",
+  "editorTheme": { "dark": "tokyo-night" },
+  "variants": {
+    "dark": {
+      "colors": {
+        "background": "#363537",
+        "foreground": "#f7f1ff",
+        "card": "#3e3d40",
+        "cardForeground": "#f7f1ff",
+        "popover": "#3e3d40",
+        "popoverForeground": "#f7f1ff",
+        "primary": "#fd9353",
+        "primaryForeground": "#1a1a1a",
+        "secondary": "#46454a",
+        "secondaryForeground": "#f7f1ff",
+        "muted": "#46454a",
+        "mutedForeground": "#69676c",
+        "accent": "#46454a",
+        "accentForeground": "#f7f1ff",
+        "destructive": "#fc618d",
+        "border": "rgba(247,241,255,0.08)",
+        "input": "rgba(247,241,255,0.12)",
+        "ring": "#fd9353",
+        "sidebar": "#2e2d30",
+        "sidebarForeground": "#f7f1ff",
+        "sidebarPrimary": "#fd9353",
+        "sidebarPrimaryForeground": "#1a1a1a",
+        "sidebarAccent": "#46454a",
+        "sidebarAccentForeground": "#f7f1ff",
+        "sidebarBorder": "rgba(247,241,255,0.08)",
+        "sidebarRing": "#fd9353"
+      },
+      "terminal": {
+        "background": "#363537",
+        "foreground": "#f7f1ff",
+        "cursor": "#fd9353",
+        "cursorAccent": "#363537",
+        "selection": "rgba(253,147,83,0.22)",
+        "ansi": [
+          "#363537", "#fc618d", "#7bd88f", "#fce566",
+          "#fd9353", "#948ae3", "#5ad4e6", "#f7f1ff",
+          "#69676c", "#fc618d", "#7bd88f", "#fce566",
+          "#fd9353", "#948ae3", "#5ad4e6", "#f7f1ff"
+        ]
+      }
+    }
+  }
+}
