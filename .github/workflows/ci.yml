@@ -2,7 +2,7 @@ name: CI
 
 on:
   push:
-    branches: [main, dev]
+    branches: [main]
   pull_request:
     branches: [main]
 
@@ -44,18 +44,18 @@ jobs:
         run: |
           pip install toml
           python -c "
-import toml, sys
-import glob
-errors = 0
-for f in glob.glob('themes/*.toml') + glob.glob('settings/**/*.toml'):
-    try:
-        toml.load(f)
-        print(f'✅ {f}')
-    except Exception as e:
-        print(f'❌ {f}: {e}')
-        errors += 1
-sys.exit(errors)
-"
+          import toml, sys
+          import glob
+          errors = 0
+          for f in glob.glob('themes/*.toml') + glob.glob('settings/**/*.toml'):
+              try:
+                  toml.load(f)
+                  print(f'OK {f}')
+              except Exception as e:
+                  print(f'FAIL {f}: {e}')
+                  errors += 1
+          sys.exit(errors)
+          "
 
   shellcheck:
     runs-on: ubuntu-latest
