@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import re
 import subprocess
 import sys
 from pathlib import Path
@@ -53,9 +54,12 @@ def temp_output(tmp_path: Path) -> Path:
 def test_generate_themes_writes_valid_toml(temp_output: Path) -> None:
     result = subprocess.run(
         [
-            sys.executable, str(SCRIPT),
-            "--out", str(temp_output),
-            "--only", "Madrid",
+            sys.executable,
+            str(SCRIPT),
+            "--out",
+            str(temp_output),
+            "--only",
+            "Madrid",
         ],
         cwd=str(ROOT),
         capture_output=True,
@@ -80,9 +84,6 @@ def test_generate_themes_all_palettes_valid_toml(temp_output: Path) -> None:
     assert result.returncode == 0
 
     content = COLORS_MD.read_text(encoding="utf-8")
-    import re
     palette_count = len(re.findall(r"<h2[^>]*>.*?</h2>\s*```json", content, re.S))
     generated = list(temp_output.glob("*.toml"))
-    assert len(generated) == palette_count, (
-        f"Expected {palette_count} themes, got {len(generated)}"
-    )
+    assert len(generated) == palette_count, f"Expected {palette_count} themes, got {len(generated)}"

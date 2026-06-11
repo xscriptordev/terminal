@@ -92,18 +92,21 @@ def parse_roadmap(path: Path) -> list[Task]:
             else:
                 state = TaskState.TODO
 
-            tasks.append(Task(
-                title=title,
-                issue_number=issue_num,
-                state=state,
-                phase_label=current_phase,
-                line_number=line_num,
-            ))
+            tasks.append(
+                Task(
+                    title=title,
+                    issue_number=issue_num,
+                    state=state,
+                    phase_label=current_phase,
+                    line_number=line_num,
+                )
+            )
 
     return tasks
 
 
 # ── GitHub CLI helpers ───────────────────────────────────────────────────────
+
 
 def gh(args: list[str], repo: str | None = None) -> str:
     """Run a gh CLI command and return stdout."""
@@ -123,8 +126,7 @@ def get_issue(number: int, repo: str | None) -> dict:
 def ensure_label_exists(label: str, repo: str | None, color: str = "ededed") -> None:
     """Create a label if it doesn't exist."""
     try:
-        gh(["label", "create", label, "--color", color,
-            "--description", f"Label: {label}"], repo)
+        gh(["label", "create", label, "--color", color, "--description", f"Label: {label}"], repo)
     except subprocess.CalledProcessError:
         pass  # label already exists
 
@@ -132,8 +134,21 @@ def ensure_label_exists(label: str, repo: str | None, color: str = "ededed") -> 
 def find_existing_issue(title: str, repo: str | None) -> int | None:
     """Search for an open or closed issue with the exact same title. Returns its number or None."""
     try:
-        raw = gh(["issue", "list", "--search", f"in:title {title}",
-                  "--state", "all", "--json", "number,title", "--limit", "10"], repo)
+        raw = gh(
+            [
+                "issue",
+                "list",
+                "--search",
+                f"in:title {title}",
+                "--state",
+                "all",
+                "--json",
+                "number,title",
+                "--limit",
+                "10",
+            ],
+            repo,
+        )
         issues = json.loads(raw)
         for issue in issues:
             if issue["title"].strip() == title.strip():
@@ -145,10 +160,19 @@ def find_existing_issue(title: str, repo: str | None) -> int | None:
 
 def create_issue(title: str, label: str, repo: str | None) -> int:
     """Create a new GitHub issue and return its number."""
-    url = gh(["issue", "create",
-              "--title", title,
-              "--body", f"Auto-created from ROADMAP.md\n\nPhase: `{label}`",
-              "--label", label], repo)
+    url = gh(
+        [
+            "issue",
+            "create",
+            "--title",
+            title,
+            "--body",
+            f"Auto-created from ROADMAP.md\n\nPhase: `{label}`",
+            "--label",
+            label,
+        ],
+        repo,
+    )
     # gh issue create prints the URL: https://github.com/owner/repo/issues/42
     match = re.search(r"/issues/(\d+)", url)
     if not match:
@@ -181,8 +205,10 @@ def update_issue_title(number: int, title: str, repo: str | None) -> None:
 
 # ── Roadmap file updater ─────────────────────────────────────────────────────
 
-def update_roadmap_line(path: Path, line_number: int, title: str,
-                        checkbox: str, issue_number: int) -> None:
+
+def update_roadmap_line(
+    path: Path, line_number: int, title: str, checkbox: str, issue_number: int
+) -> None:
     """Update a specific line in the ROADMAP.md to include the issue number."""
     lines = path.read_text(encoding="utf-8").splitlines(keepends=True)
     idx = line_number - 1
@@ -194,17 +220,19 @@ def git_commit_roadmap(path: Path) -> None:
     """Commit the updated ROADMAP.md with auto-generated issue numbers."""
     subprocess.run(
         ["git", "config", "user.name", "roadmap-sync[bot]"],
-        capture_output=True, check=False,
+        capture_output=True,
+        check=False,
     )
     subprocess.run(
         ["git", "config", "user.email", "roadmap-sync[bot]@users.noreply.github.com"],
-        capture_output=True, check=False,
+        capture_output=True,
+        check=False,
     )
     subprocess.run(["git", "add", str(path)], capture_output=True, check=True)
     subprocess.run(
-        ["git", "commit", "-m",
-         "docs: update ROADMAP.md with issue numbers [roadmap-sync]"],
-        capture_output=True, check=True,
+        ["git", "commit", "-m", "docs: update ROADMAP.md with issue numbers [roadmap-sync]"],
+        capture_output=True,
+        check=True,
     )
     subprocess.run(["git", "push"], capture_output=True, check=True)
 
@@ -219,9 +247,7 @@ def sync_task(task: Task, repo: str | None, dry_run: bool) -> list[str]:
     actions: list[str] = []
     issue = get_issue(task.issue_number, repo)
     is_open = issue["state"] == "OPEN"
-    has_in_progress = any(
-        label["name"] == IN_PROGRESS_LABEL for label in issue.get("labels", [])
-    )
+    has_in_progress = any(label["name"] == IN_PROGRESS_LABEL for label in issue.get("labels", []))
     issue_title = issue["title"]
 
     if issue_title.strip() != task.title.strip():
@@ -263,20 +289,17 @@ def sync_task(task: Task, repo: str | None, dry_run: bool) -> list[str]:
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(
-        description="Sync ROADMAP.md checkboxes with GitHub Issues"
+    parser = argparse.ArgumentParser(description="Sync ROADMAP.md checkboxes with GitHub Issues")
+    parser.add_argument(
+        "--roadmap",
+        default="ROADMAP.md",
+        help="Path to the ROADMAP.md file (default: ./ROADMAP.md)",
     )
     parser.add_argument(
-        "--roadmap", default="ROADMAP.md",
-        help="Path to the ROADMAP.md file (default: ./ROADMAP.md)"
+        "--repo", default=None, help="GitHub repo in owner/name format (default: auto-detect)"
     )
     parser.add_argument(
-        "--repo", default=None,
-        help="GitHub repo in owner/name format (default: auto-detect)"
-    )
-    parser.add_argument(
-        "--dry-run", action="store_true",
-        help="Preview changes without applying them"
+        "--dry-run", action="store_true", help="Preview changes without applying them"
     )
     args = parser.parse_args()
 
@@ -304,24 +327,26 @@ def main() -> None:
     if new_tasks:
         done_count = sum(1 for t in new_tasks if t.state == TaskState.DONE)
         open_count = len(new_tasks) - done_count
-        print(f"{prefix}Creating {len(new_tasks)} new issue(s) "
-              f"({open_count} open, {done_count} done → create+close)...")
+        print(
+            f"{prefix}Creating {len(new_tasks)} new issue(s) "
+            f"({open_count} open, {done_count} done → create+close)..."
+        )
         roadmap_modified = False
         for task in new_tasks:
             checkbox_char = {"todo": " ", "in-progress": "/", "done": "x"}[task.state.value]
             if args.dry_run:
                 suffix = " → would create + close" if task.state == TaskState.DONE else ""
-                print(f"  would create: \"{task.title}\" [{task.phase_label}]{suffix}")
+                print(f'  would create: "{task.title}" [{task.phase_label}]{suffix}')
             else:
                 # Check for existing issue with same title to avoid duplicates
                 existing = find_existing_issue(task.title, args.repo)
                 if existing:
-                    print(f"  found existing #{existing}: \"{task.title}\" (skipping creation)")
+                    print(f'  found existing #{existing}: "{task.title}" (skipping creation)')
                     issue_num = existing
                 else:
                     ensure_label_exists(task.phase_label, args.repo)
                     issue_num = create_issue(task.title, task.phase_label, args.repo)
-                    print(f"  created #{issue_num}: \"{task.title}\"")
+                    print(f'  created #{issue_num}: "{task.title}"')
 
                 # If the task is already done, close the issue immediately
                 if task.state == TaskState.DONE:
@@ -330,8 +355,7 @@ def main() -> None:
 
                 task.issue_number = issue_num
                 update_roadmap_line(
-                    roadmap_path, task.line_number,
-                    task.title, checkbox_char, issue_num
+                    roadmap_path, task.line_number, task.title, checkbox_char, issue_num
                 )
                 roadmap_modified = True
 

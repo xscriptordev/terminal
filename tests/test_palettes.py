@@ -83,18 +83,14 @@ def test_theme_matches_colors_md(theme_path: Path) -> None:
             break
 
     assert theme_name in palettes, (
-        f"No palette found in colors.md for theme '{theme_name}' "
-        f"(file: {theme_path.name})"
+        f"No palette found in colors.md for theme '{theme_name}' (file: {theme_path.name})"
     )
 
     expected = expected_palette(palettes[theme_name])
     actual = parse_theme_palette(theme_path)
 
     for key, expected_value in expected.items():
-        assert key in actual, (
-            f"Missing key '{key}' in {theme_path.name} palette"
-        )
+        assert key in actual, f"Missing key '{key}' in {theme_path.name} palette"
         assert actual[key].lower() == expected_value.lower(), (
-            f"{theme_path.name}: palette '{key}' "
-            f"expected {expected_value}, got {actual[key]}"
+            f"{theme_path.name}: palette '{key}' expected {expected_value}, got {actual[key]}"
         )

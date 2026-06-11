@@ -120,7 +120,7 @@ def build_palette(colors: dict[str, str]) -> dict[str, str]:
 
 
 def format_palette(palette: dict[str, str]) -> str:
-    return "\n".join(f"{key} = \"{palette[key]}\"" for key in PALETTE_KEYS)
+    return "\n".join(f'{key} = "{palette[key]}"' for key in PALETTE_KEYS)
 
 
 def slugify(name: str) -> str:
@@ -159,9 +159,7 @@ def main() -> int:
 
     only = [name.strip().lower() for name in args.only]
     targets = {
-        name: palette
-        for name, palette in palettes.items()
-        if not only or name.lower() in only
+        name: palette for name, palette in palettes.items() if not only or name.lower() in only
     }
 
     if not targets:

@@ -20,18 +20,17 @@ def test_install_sh_is_shell_script() -> None:
 
 
 def test_install_sh_dry_run() -> None:
+    script = (
+        "import subprocess\n"
+        "import sys\n"
+        "result = subprocess.run(\n"
+        f'    ["sh", "-n", {str(INSTALL_SH)!r}],\n'
+        f"    capture_output=True, text=True, cwd={str(ROOT)!r},\n"
+        ")\n"
+        "sys.exit(result.returncode)\n"
+    )
     result = subprocess.run(
-        [sys.executable, "-c", """
-import subprocess
-import sys
-
-# Basic syntax check: run with --help (POSIX sh)
-result = subprocess.run(
-    ["sh", "-n", str(INSTALL_SH)],
-    capture_output=True, text=True, cwd=str(ROOT)
-)
-sys.exit(result.returncode)
-""".replace("INSTALL_SH", str(INSTALL_SH)).replace("ROOT", str(ROOT))],
+        [sys.executable, "-c", script],
         capture_output=True,
         text=True,
     )
