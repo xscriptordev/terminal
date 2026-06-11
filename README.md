@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="https://xscriptor.github.io/badges/editors/helix.svg" alt="helix" /> <img src="https://xscriptor.github.io/badges/languages/rust.svg" alt="rust" /> <img src="https://xscriptor.github.io/badges/languages/shell.svg" alt="shell" /> <img src="https://xscriptor.github.io/badges/licenses/mit.svg" alt="mit" />
+<img src="https://img.shields.io/badge/Editor-Helix-292e33?logo=helix&logoColor=white" alt="Helix" /> <img src="https://img.shields.io/badge/Language-Rust-000000?logo=rust&logoColor=white" alt="Rust" /> <img src="https://img.shields.io/badge/Language-Shell-121011?logo=gnu-bash&logoColor=white" alt="Shell" /> <img src="https://img.shields.io/badge/License-MIT-969DA0?logo=open-source-initiative&logoColor=white" alt="MIT" />
 
 <p>Essential settings to improve accessibility of helix using the Xscriptor themes.</p>
 
@@ -138,10 +138,19 @@ sh -c "$(wget -qO- https://raw.githubusercontent.com/xscriptor/helix/main/instal
   <li><a href="./colors.md">Colors</a></li>
 </ul>
 
+<div id="x" align="center">
+<h2>X</h2>
 
-<div align="center">
-<h2 align="center" id="x">X</h2>
+<a href="https://dev.xscriptor.com">
+  <img src="https://xscriptor.github.io/icons/icons/code/product-design/xsvg/verified-filled.svg" width="24" alt="X Web" />
+</a>
+ & 
+<a href="https://github.com/xscriptor">
+  <img src="https://xscriptor.github.io/icons/icons/code/product-design/xsvg/github.svg" width="24" alt="X Github Profile" />
+</a>
+ & 
+<a href="https://www.xscriptor.com">
+  <img src="https://xscriptor.github.io/icons/icons/code/product-design/xsvg/quotes.svg" width="24" alt="Xscriptor web" />
+</a>
 
-<a href="https://github.com/xscriptor">XGitHub</a> &middot;
-<a href="https://dev.xscriptor.com">XWeb</a>
 </div>
