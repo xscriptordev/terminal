@@ -220,7 +220,7 @@ def sync_task(task: Task, repo: str | None, dry_run: bool) -> list[str]:
     issue = get_issue(task.issue_number, repo)
     is_open = issue["state"] == "OPEN"
     has_in_progress = any(
-        l["name"] == IN_PROGRESS_LABEL for l in issue.get("labels", [])
+        label["name"] == IN_PROGRESS_LABEL for label in issue.get("labels", [])
     )
     issue_title = issue["title"]
 

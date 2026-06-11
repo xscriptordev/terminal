@@ -77,7 +77,6 @@ def test_theme_matches_colors_md(theme_path: Path) -> None:
 
     theme_name = theme_path.stem.capitalize()
     # Handle special names
-    name_map = {"X": "X"}
     for name in palettes:
         if slugify(name) == theme_path.stem:
             theme_name = name
