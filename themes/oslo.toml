@@ -59,7 +59,7 @@ rainbow = ["color1", "color2", "color3", "color4", "color5", "color6"]
 
 [palette]
 bg = "#3f4451"
-fg = "#ffffff"
+fg = "#e6e6e6"
 muted = "#4f5666"
 menu = "#3f4451"
 selection = "#4f5666"

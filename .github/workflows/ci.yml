@@ -1,0 +1,68 @@
+name: CI
+
+on:
+  push:
+    branches: [main, dev]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  lint-python:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install ruff
+        run: pip install ruff
+      - name: Lint Python
+        run: ruff check .
+      - name: Check formatting
+        run: ruff format --check .
+
+  test-python:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: pip install pytest
+      - name: Run tests
+        run: python -m pytest tests/ -v
+
+  validate-toml:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate TOML files
+        run: |
+          pip install toml
+          python -c "
+import toml, sys
+import glob
+errors = 0
+for f in glob.glob('themes/*.toml') + glob.glob('settings/**/*.toml'):
+    try:
+        toml.load(f)
+        print(f'✅ {f}')
+    except Exception as e:
+        print(f'❌ {f}: {e}')
+        errors += 1
+sys.exit(errors)
+"
+
+  shellcheck:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run ShellCheck
+        uses: ludeeus/action-shellcheck@master
+        with:
+          scandir: "."
+          severity: warning
