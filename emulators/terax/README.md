@@ -1,10 +1,8 @@
 <h1 align="center">Terax X Themes</h1>
 
-<blockquote>
-  <p>This repository has moved. Terax themes are now part of the
-  <a href="https://github.com/xscriptor/terminal">xscriptor/terminal</a> monorepo
-  under <code>emulators/terax/</code>.</p>
-</blockquote>
+<p align="center">
+  Part of the <a href="https://github.com/xscriptor/terminal">xscriptor/terminal</a> theme collection.
+</p>
 
 <p align="center">
   <a href="https://github.com/xscriptor/terminal/blob/main/emulators/terax/LICENSE"><img src="https://img.shields.io/badge/license-Apache--2.0-blue?style=flat-square" alt="License: Apache-2.0" /></a>
