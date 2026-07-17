@@ -14,6 +14,13 @@ All notable changes to Terminal Xscriptor will be documented in this file.
 - Updated main README with CLI section and content nav entry
 - Updated CLI tools badge from 2 to 3
 
+### Added
+- `emulators/terax/` with Terax themes imported via git merge (history preserved)
+- Terax badge and entry in main README and emulators README
+
+### Removed
+- Duplicate CODE_OF_CONDUCT, CONTRIBUTING, LICENSE, SECURITY from `cli/helix/`, `cli/opencode/`, `emulators/terax/` (handled at repo root)
+
 ## [1.0.0] - 2026-06-12
 
 ### Added
