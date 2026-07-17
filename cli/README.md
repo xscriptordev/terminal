@@ -21,6 +21,10 @@
     <td><strong>OpenCode</strong></td>
     <td>Themes, configurations, and tooling for <a href="https://opencode.ai">OpenCode</a>, the open source AI coding agent for the terminal. See the <a href="./opencode/README.md">OpenCode README</a>.</td>
   </tr>
+  <tr>
+    <td><strong>GitNapse</strong></td>
+    <td>Colour themes for <a href="https://github.com/xscriptor/gitnapse">GitNapse</a>, the TUI client for GitHub. See the <a href="./gitnapse/README.md">GitNapse README</a>.</td>
+  </tr>
 </table>
 
 <h2 align="center">Quick Start</h2>

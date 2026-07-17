@@ -7,10 +7,12 @@ All notable changes to Terminal Xscriptor will be documented in this file.
 ### Added
 - `cli/` directory with Helix and OpenCode repos imported via git subtree
 - `cli/README.md` entry point for CLI tools
-- `cli/claude-code added`
+- `cli/claude-code` added
+- `cli/gitnapse/` with Xscriptor colour themes for GitNapse and install script
 
 ### Changed
 - Updated main README with CLI section and content nav entry
+- Updated CLI tools badge from 2 to 3
 
 ## [1.0.0] - 2026-06-12
 
