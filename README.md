@@ -12,6 +12,8 @@
 ![Repo Size](https://img.shields.io/github/repo-size/xscriptor/terminal)
 ![Themes](https://img.shields.io/badge/themes-12-blue)
 ![Terminals](https://img.shields.io/badge/terminals-26-blue)
+![Prompts](https://img.shields.io/badge/prompts-4-blue)
+![CLI](https://img.shields.io/badge/cli_tools-3-blue)
 
 My own collection of terminal themes and color schemes designed for a consistent look and feel across Windows, macOS, and Linux.
 
@@ -30,6 +32,7 @@ My own collection of terminal themes and color schemes designed for a consistent
   <li><a href="#supported-terminals">Supported Terminals</a> <img src="https://xscriptor.github.io/icons/icons/code/product-design/xsvg/terminal.svg"/></li>
   <li><a href="#prompts">Prompts</a> <img src="https://xscriptor.github.io/icons/icons/code/product-design/xsvg/terminal-bash.svg" /></li>
   <li><a href="#colors">Colors</a> <img src="https://xscriptor.github.io/icons/icons/code/product-design/xsvg/symbol-color.svg" /></li>
+  <li><a href="#cli">CLI</a> <img src="https://xscriptor.github.io/icons/icons/code/product-design/xsvg/terminal.svg" /></li>
   <li><a href="#related-files">Related Files</a> <img src="https://xscriptor.github.io/icons/icons/code/product-design/xsvg/file-code.svg"/></li>
   <li><a href="#related-repos">Related Repos</a> <img src="https://xscriptor.github.io/icons/icons/code/product-design/xsvg/repo-forked.svg"/></li>
   <li><a href="#x">X</a> <img src="https://xscriptor.github.io/icons/icons/code/product-design/xsvg/regex.svg" /></li>
@@ -133,6 +136,12 @@ My own collection of terminal themes and color schemes designed for a consistent
   <a href="https://raw.githubusercontent.com/xscriptor/xassets/main/colors/palette_bogota.svg"><img src="https://raw.githubusercontent.com/xscriptor/xassets/main/colors/palette_bogota.svg" height="100" alt="Bogota"/></a>
 </div>
 
+
+<hr>
+
+<h2 align="center" id="cli">CLI</h2>
+
+<p>Standalone CLI tool configs for <a href="./cli/helix/">Helix</a>, <a href="./cli/helix/">Claude-Code</a>, <a href="./cli/opencode/">OpenCode</a> and <a href="./cli/gitnapse/">GitNapse</a>, each with its own themes and installer. See the <a href="./cli/">cli directory</a>.</p>
 
 <h2 align="center" id="related-files">Related Files</h2>
 

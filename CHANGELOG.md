@@ -2,13 +2,17 @@
 
 All notable changes to Terminal Xscriptor will be documented in this file.
 
-## [Unreleased]
+## 2026-07-17
 
 ### Added
-- CHANGELOG.md for project tracking
+- `cli/` directory with Helix and OpenCode repos imported via git subtree
+- `cli/README.md` entry point for CLI tools
+- `cli/claude-code` added
+- `cli/gitnapse/` with Xscriptor colour themes for GitNapse and install script
 
 ### Changed
-- Moved all preview images to root `previews/` directory organized by emulator
+- Updated main README with CLI section and content nav entry
+- Updated CLI tools badge from 2 to 3
 
 ## [1.0.0] - 2026-06-12
 
