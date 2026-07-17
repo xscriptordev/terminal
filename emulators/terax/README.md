@@ -1,7 +1,13 @@
 <h1 align="center">Terax X Themes</h1>
 
+<blockquote>
+  <p>This repository has moved. Terax themes are now part of the
+  <a href="https://github.com/xscriptor/terminal">xscriptor/terminal</a> monorepo
+  under <code>emulators/terax/</code>.</p>
+</blockquote>
+
 <p align="center">
-  <a href="https://github.com/xscriptor/terax/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-Apache--2.0-blue?style=flat-square" alt="License: Apache-2.0" /></a>
+  <a href="https://github.com/xscriptor/terminal/blob/main/emulators/terax/LICENSE"><img src="https://img.shields.io/badge/license-Apache--2.0-blue?style=flat-square" alt="License: Apache-2.0" /></a>
   <a href="#"><img src="https://img.shields.io/badge/version-1.0.0-informational?style=flat-square" alt="Version 1.0.0" /></a>
   <a href="#"><img src="https://img.shields.io/badge/platform-linux%20%7C%20macos%20%7C%20windows-lightgrey?style=flat-square" alt="Platform: Linux, macOS, Windows" /></a>
 </p>
@@ -21,7 +27,7 @@
 </p>
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/xscriptor/terax/main/install-terax-themes.sh | bash
+curl -fsSL https://raw.githubusercontent.com/xscriptor/terminal/main/emulators/terax/install-terax-themes.sh | bash
 ```
 
 <p align="center">
@@ -29,7 +35,7 @@ curl -fsSL https://raw.githubusercontent.com/xscriptor/terax/main/install-terax-
 </p>
 
 ```powershell
-irm https://raw.githubusercontent.com/xscriptor/terax/main/install-terax-themes.ps1 | iex
+irm https://raw.githubusercontent.com/xscriptor/terminal/main/emulators/terax/install-terax-themes.ps1 | iex
 ```
 
 After installation, restart Terax. Themes appear under **Settings > Appearance > Theme**.
@@ -138,7 +144,7 @@ Full schema reference is documented in [colors.md](colors.md).
 </p>
 
 <p align="center">
-  <a href="https://github.com/xscriptor/terax">github.com/xscriptor/terax</a>
+  <a href="https://github.com/xscriptor/terminal">github.com/xscriptor/terminal</a>
   &nbsp;|&nbsp;
   <a href="mailto:x@xscriptor.com">x@xscriptor.com</a>
 </p>
