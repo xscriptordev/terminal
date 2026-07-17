@@ -1,0 +1,52 @@
+{
+  "id": "lahabana",
+  "name": "Lahabana",
+  "author": "xscriptor-terax-themes",
+  "description": "Warm charcoal base with electric lime and magenta. Caribbean nights.",
+  "editorTheme": { "dark": "atomone" },
+  "variants": {
+    "dark": {
+      "colors": {
+        "background": "#363537",
+        "foreground": "#f7f1ff",
+        "card": "#3e3d40",
+        "cardForeground": "#f7f1ff",
+        "popover": "#3e3d40",
+        "popoverForeground": "#f7f1ff",
+        "primary": "#e5ff9d",
+        "primaryForeground": "#363537",
+        "secondary": "#444346",
+        "secondaryForeground": "#f7f1ff",
+        "muted": "#444346",
+        "mutedForeground": "#69676c",
+        "accent": "#444346",
+        "accentForeground": "#f7f1ff",
+        "destructive": "#fc618d",
+        "border": "rgba(247,241,255,0.10)",
+        "input": "rgba(247,241,255,0.14)",
+        "ring": "#e5ff9d",
+        "sidebar": "#2e2d30",
+        "sidebarForeground": "#f7f1ff",
+        "sidebarPrimary": "#e5ff9d",
+        "sidebarPrimaryForeground": "#363537",
+        "sidebarAccent": "#444346",
+        "sidebarAccentForeground": "#f7f1ff",
+        "sidebarBorder": "rgba(247,241,255,0.10)",
+        "sidebarRing": "#e5ff9d"
+      },
+      "terminal": {
+        "background": "#363537",
+        "foreground": "#f7f1ff",
+        "cursor": "#e5ff9d",
+        "cursorAccent": "#363537",
+        "selection": "rgba(229,255,157,0.22)",
+        "ansi": [
+          "#363537", "#fc618d", "#7bd88f", "#e5ff9d",
+          "#fd9353", "#948ae3", "#5ad4e6", "#f7f1ff",
+          "#69676c", "#fc618d", "#7bd88f", "#e5ff9d",
+          "#fd9353", "#948ae3", "#5ad4e6", "#f7f1ff"
+        ]
+      }
+    }
+  }
+}

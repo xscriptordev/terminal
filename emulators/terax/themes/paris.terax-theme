@@ -1,0 +1,52 @@
+{
+  "id": "paris",
+  "name": "Paris",
+  "author": "xscriptor-terax-themes",
+  "description": "Deep violet-black reminiscent of Parisian nights. Cyan and lavender accents.",
+  "editorTheme": { "dark": "atomone" },
+  "variants": {
+    "dark": {
+      "colors": {
+        "background": "#10081a",
+        "foreground": "#f7f1ff",
+        "card": "#191024",
+        "cardForeground": "#f7f1ff",
+        "popover": "#191024",
+        "popoverForeground": "#f7f1ff",
+        "primary": "#c4bdff",
+        "primaryForeground": "#10081a",
+        "secondary": "#201530",
+        "secondaryForeground": "#f7f1ff",
+        "muted": "#201530",
+        "mutedForeground": "#525053",
+        "accent": "#201530",
+        "accentForeground": "#f7f1ff",
+        "destructive": "#fc618d",
+        "border": "rgba(247,241,255,0.08)",
+        "input": "rgba(247,241,255,0.12)",
+        "ring": "#a3f3ff",
+        "sidebar": "#10081a",
+        "sidebarForeground": "#f7f1ff",
+        "sidebarPrimary": "#a3f3ff",
+        "sidebarPrimaryForeground": "#10081a",
+        "sidebarAccent": "#201530",
+        "sidebarAccentForeground": "#f7f1ff",
+        "sidebarBorder": "rgba(247,241,255,0.08)",
+        "sidebarRing": "#a3f3ff"
+      },
+      "terminal": {
+        "background": "#10081a",
+        "foreground": "#f7f1ff",
+        "cursor": "#a3f3ff",
+        "cursorAccent": "#10081a",
+        "selection": "rgba(163,243,255,0.22)",
+        "ansi": [
+          "#10081a", "#fc618d", "#7bd88f", "#fce566",
+          "#a3f3ff", "#c4bdff", "#a3f3ff", "#f7f1ff",
+          "#525053", "#fc618d", "#7bd88f", "#fce566",
+          "#a3f3ff", "#c4bdff", "#a3f3ff", "#f7f1ff"
+        ]
+      }
+    }
+  }
+}

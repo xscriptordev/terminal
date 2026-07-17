@@ -1,0 +1,52 @@
+{
+  "id": "miami",
+  "name": "Miami",
+  "author": "xscriptor-terax-themes",
+  "description": "Pure black with synthwave neon — cyan, magenta, and hot pink. Retro-futuristic.",
+  "editorTheme": { "dark": "atomone" },
+  "variants": {
+    "dark": {
+      "colors": {
+        "background": "#000000",
+        "foreground": "#f7f1ff",
+        "card": "#0c0c10",
+        "cardForeground": "#f7f1ff",
+        "popover": "#0c0c10",
+        "popoverForeground": "#f7f1ff",
+        "primary": "#FF4C8B",
+        "primaryForeground": "#ffffff",
+        "secondary": "#14141a",
+        "secondaryForeground": "#f7f1ff",
+        "muted": "#14141a",
+        "mutedForeground": "#69676c",
+        "accent": "#14141a",
+        "accentForeground": "#f7f1ff",
+        "destructive": "#FF4C8B",
+        "border": "rgba(255,255,255,0.08)",
+        "input": "rgba(255,255,255,0.10)",
+        "ring": "#47CFFF",
+        "sidebar": "#000000",
+        "sidebarForeground": "#f7f1ff",
+        "sidebarPrimary": "#47CFFF",
+        "sidebarPrimaryForeground": "#000000",
+        "sidebarAccent": "#14141a",
+        "sidebarAccentForeground": "#f7f1ff",
+        "sidebarBorder": "rgba(255,255,255,0.08)",
+        "sidebarRing": "#47CFFF"
+      },
+      "terminal": {
+        "background": "#000000",
+        "foreground": "#f7f1ff",
+        "cursor": "#47CFFF",
+        "cursorAccent": "#000000",
+        "selection": "rgba(71,207,255,0.25)",
+        "ansi": [
+          "#000000", "#FF4C8B", "#7FFFD4", "#FFD84C",
+          "#00FFA8", "#D36CFF", "#47CFFF", "#f7f1ff",
+          "#69676c", "#FF4C8B", "#7FFFD4", "#FFD84C",
+          "#00FFA8", "#D36CFF", "#47CFFF", "#f7f1ff"
+        ]
+      }
+    }
+  }
+}

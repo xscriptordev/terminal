@@ -1,0 +1,52 @@
+{
+  "id": "madrid",
+  "name": "Madrid",
+  "author": "xscriptor-terax-themes",
+  "description": "Warm ivory background with crimson and teal. Mediterranean sunlight.",
+  "editorTheme": { "light": "xcode-light" },
+  "variants": {
+    "light": {
+      "colors": {
+        "background": "#fafafa",
+        "foreground": "#1a1a1a",
+        "card": "#ffffff",
+        "cardForeground": "#1a1a1a",
+        "popover": "#ffffff",
+        "popoverForeground": "#1a1a1a",
+        "primary": "#990026",
+        "primaryForeground": "#fafafa",
+        "secondary": "#f0f0f0",
+        "secondaryForeground": "#1a1a1a",
+        "muted": "#f0f0f0",
+        "mutedForeground": "#4d4d4d",
+        "accent": "#f0f0f0",
+        "accentForeground": "#1a1a1a",
+        "destructive": "#990026",
+        "border": "rgba(26,26,26,0.10)",
+        "input": "rgba(26,26,26,0.14)",
+        "ring": "#007a28",
+        "sidebar": "#f5f5f5",
+        "sidebarForeground": "#1a1a1a",
+        "sidebarPrimary": "#007a9e",
+        "sidebarPrimaryForeground": "#ffffff",
+        "sidebarAccent": "#e8e8e8",
+        "sidebarAccentForeground": "#1a1a1a",
+        "sidebarBorder": "rgba(26,26,26,0.10)",
+        "sidebarRing": "#007a9e"
+      },
+      "terminal": {
+        "background": "#fafafa",
+        "foreground": "#1a1a1a",
+        "cursor": "#1a1a1a",
+        "cursorAccent": "#fafafa",
+        "selection": "rgba(0,122,158,0.18)",
+        "ansi": [
+          "#fafafa", "#990026", "#007a28", "#8a6408",
+          "#007a9e", "#4d2699", "#007a9e", "#1a1a1a",
+          "#4d4d4d", "#990026", "#007a28", "#8a6408",
+          "#007a9e", "#4d2699", "#007a9e", "#1a1a1a"
+        ]
+      }
+    }
+  }
+}

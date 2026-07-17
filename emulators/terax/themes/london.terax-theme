@@ -1,0 +1,52 @@
+{
+  "id": "london",
+  "name": "London",
+  "author": "xscriptor-terax-themes",
+  "description": "Clean white with grey gradients. Minimal and bright.",
+  "editorTheme": { "light": "github-light" },
+  "variants": {
+    "light": {
+      "colors": {
+        "background": "#ffffff",
+        "foreground": "#333333",
+        "card": "#fafafa",
+        "cardForeground": "#333333",
+        "popover": "#fafafa",
+        "popoverForeground": "#333333",
+        "primary": "#555555",
+        "primaryForeground": "#ffffff",
+        "secondary": "#f0f0f0",
+        "secondaryForeground": "#333333",
+        "muted": "#f0f0f0",
+        "mutedForeground": "#777777",
+        "accent": "#f0f0f0",
+        "accentForeground": "#333333",
+        "destructive": "#888888",
+        "border": "rgba(51,51,51,0.10)",
+        "input": "rgba(51,51,51,0.14)",
+        "ring": "#333333",
+        "sidebar": "#f8f8f8",
+        "sidebarForeground": "#333333",
+        "sidebarPrimary": "#444444",
+        "sidebarPrimaryForeground": "#ffffff",
+        "sidebarAccent": "#e8e8e8",
+        "sidebarAccentForeground": "#333333",
+        "sidebarBorder": "rgba(51,51,51,0.10)",
+        "sidebarRing": "#333333"
+      },
+      "terminal": {
+        "background": "#ffffff",
+        "foreground": "#333333",
+        "cursor": "#333333",
+        "cursorAccent": "#ffffff",
+        "selection": "rgba(51,51,51,0.15)",
+        "ansi": [
+          "#ffffff", "#333333", "#444444", "#555555",
+          "#666666", "#777777", "#888888", "#333333",
+          "#333333", "#444444", "#555555", "#666666",
+          "#777777", "#888888", "#999999", "#aaaaaa"
+        ]
+      }
+    }
+  }
+}
