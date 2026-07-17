@@ -130,19 +130,3 @@ Each `.terax-theme` file is a JSON document with the following structure:
   - **`terminal`** -- ANSI 16-color palette plus background, foreground, cursor, and selection colors
 
 Valid editor theme values: `atomone`, `aura`, `copilot`, `github-dark`, `github-light`, `gruvbox-dark`, `nord`, `tokyo-night`, `xcode-dark`, `xcode-light`.
-
-Full schema reference is documented in [colors.md](colors.md).
-
----
-
-<h2 align="center">License</h2>
-
-<p align="center">
-  Apache-2.0 -- Copyright (c) xscriptor
-</p>
-
-<p align="center">
-  <a href="https://github.com/xscriptor/terminal">github.com/xscriptor/terminal</a>
-  &nbsp;|&nbsp;
-  <a href="mailto:x@xscriptor.com">x@xscriptor.com</a>
-</p>
