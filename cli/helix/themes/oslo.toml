@@ -1,0 +1,74 @@
+"ui.background" = "bg"
+"ui.text" = "fg"
+"ui.cursor" = { fg = "bg", bg = "accent" }
+"ui.cursor.primary" = { fg = "bg", bg = "accent" }
+"ui.selection" = "selection"
+"ui.menu" = { fg = "fg", bg = "menu" }
+"ui.menu.selected" = { fg = "bg", bg = "accent", modifiers = ["bold"] }
+"ui.linenr" = { fg = "muted", bg = "gutter" }
+"ui.linenr.selected" = { fg = "fg", bg = "gutter", modifiers = ["bold"] }
+"ui.statusline" = { fg = "fg", bg = "status" }
+"ui.statusline.inactive" = { fg = "muted", bg = "status" }
+"ui.statusline.separator" = "muted"
+"ui.window" = { fg = "muted" }
+"ui.popup" = { fg = "fg", bg = "menu" }
+"ui.bufferline.active" = { fg = "bg", bg = "accent" }
+"ui.bufferline.inactive" = { fg = "muted", bg = "gutter" }
+"ui.bufferline.background" = { bg = "gutter" }
+"ui.virtual.ruler" = { bg = "gutter" }
+
+"diagnostic.error" = { fg = "color1" }
+"diagnostic.warning" = { fg = "color2" }
+"diagnostic.info" = { fg = "color5" }
+"diagnostic.hint" = { fg = "color6" }
+"diagnostic.error.gutter" = { fg = "color1" }
+"diagnostic.warning.gutter" = { fg = "color2" }
+"diagnostic.info.gutter" = { fg = "color5" }
+"diagnostic.hint.gutter" = { fg = "color6" }
+
+"diff.plus" = { fg = "color4" }
+"diff.plus.gutter" = { fg = "color4" }
+"diff.minus" = { fg = "color1" }
+"diff.minus.gutter" = { fg = "color1" }
+"diff.delta" = { fg = "color2" }
+"diff.delta.gutter" = { fg = "color2" }
+
+keyword = { fg = "color6", modifiers = ["bold"] }
+operator = { fg = "color6" }
+type = { fg = "color6" }
+function = { fg = "color5" }
+method = { fg = "color5" }
+constructor = { fg = "color5" }
+variable = { fg = "fg" }
+constant = { fg = "color2" }
+builtin = { fg = "color6" }
+attribute = { fg = "color4" }
+tag = { fg = "color1" }
+string = { fg = "color3" }
+character = { fg = "color3" }
+number = { fg = "color2" }
+boolean = { fg = "color2" }
+escape = { fg = "color3" }
+comment = { fg = "muted", modifiers = ["italic"] }
+namespace = { fg = "color6" }
+punctuation = { fg = "muted" }
+"punctuation.delimiter" = { fg = "muted" }
+"punctuation.bracket" = { fg = "muted" }
+
+rainbow = ["color1", "color2", "color3", "color4", "color5", "color6"]
+
+[palette]
+bg = "#3f4451"
+fg = "#e6e6e6"
+muted = "#4f5666"
+menu = "#3f4451"
+selection = "#4f5666"
+gutter = "#3f4451"
+status = "#3f4451"
+accent = "#c162de"
+color1 = "#e05561"
+color2 = "#8cc265"
+color3 = "#d18f52"
+color4 = "#4aa5f0"
+color5 = "#c162de"
+color6 = "#42b3c2"

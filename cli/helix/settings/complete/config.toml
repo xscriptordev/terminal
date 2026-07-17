@@ -1,0 +1,117 @@
+theme = "x"
+
+[editor]
+line-number = "relative"
+mouse = true
+middle-click-paste = true
+scrolloff = 5
+scroll-lines = 3
+shell = ["sh", "-c"]
+continue-comments = true
+cursorline = true
+cursorcolumn = false
+bufferline = "multiple"
+color-modes = true
+true-color = true
+undercurl = false
+auto-completion = true
+completion-trigger-len = 1
+completion-timeout = 120
+preview-completion-insert = true
+path-completion = true
+completion-replace = false
+auto-info = true
+auto-format = true
+idle-timeout = 400
+text-width = 100
+rulers = [80, 100, 120]
+popup-border = "all"
+end-of-line-diagnostics = "hint"
+default-yank-register = "\""
+workspace-lsp-roots = []
+default-line-ending = "native"
+insert-final-newline = true
+atomic-save = true
+trim-final-newlines = false
+trim-trailing-whitespace = false
+auto-pairs = true
+
+[editor.gutters]
+layout = ["diagnostics", "spacer", "line-numbers", "spacer", "diff"]
+
+[editor.cursor-shape]
+normal = "block"
+insert = "bar"
+select = "underline"
+
+[editor.statusline]
+left = ["mode", "spinner", "file-name"]
+center = ["diagnostics"]
+right = ["version-control", "selections", "position", "file-encoding", "file-type"]
+separator = "│"
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
+
+[editor.gutters.line-numbers]
+min-width = 3
+
+[editor.indent-guides]
+render = true
+character = "│"
+skip-levels = 1
+
+[editor.whitespace]
+render = "all"
+
+[editor.whitespace.characters]
+space = "·"
+nbsp = "⍽"
+tab = "→"
+newline = "⏎"
+tabpad = "·"
+
+[editor.soft-wrap]
+enable = true
+wrap-at-text-width = false
+max-wrap = 25
+max-indent-retain = 40
+wrap-indicator = "↲"
+
+[editor.file-picker]
+hidden = true
+follow-symlinks = true
+deduplicate-links = true
+parents = true
+ignore = true
+git-ignore = true
+git-global = true
+git-exclude = true
+
+[editor.search]
+smart-case = true
+wrap-around = true
+
+[editor.lsp]
+display-messages = true
+auto-signature-help = true
+display-inlay-hints = true
+display-signature-help-docs = true
+snippets = true
+
+[editor.inline-diagnostics]
+cursor-line = "warning"
+other-lines = "hint"
+prefix-len = 1
+max-wrap = 20
+max-diagnostics = 10
+
+[editor.auto-save]
+focus-lost = true
+
+[editor.auto-save.after-delay]
+enable = true
+timeout = 1500
+
+[keys.normal]
+g = { a = "code_action" }

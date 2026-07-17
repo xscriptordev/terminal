@@ -1,0 +1,68 @@
+# --- Theme selection ---
+theme = "x"
+
+# --- General editor settings ---
+[editor]
+line-number = "relative"     # "absolute" | "relative" | "none"
+cursorline = true
+color-modes = true           # colorized mode indicator (NORMAL/INSERT/SELECT)
+true-color = true            # enable 24-bit colors if terminal supports it
+mouse = true
+auto-pairs = true
+idle-timeout = 400           # milliseconds for idle events (lint/autocomplete)
+bufferline = "always"
+completion-trigger-len = 1
+
+# --- Cursor shape per mode ---
+[editor.cursor-shape]
+normal = "block"
+insert = "bar"
+select = "underline"
+
+# --- Statusline (what is shown and where) ---
+[editor.statusline]
+left   = ["mode", "spinner", "file-name"]
+center = ["diagnostics"]
+right  = ["selections", "position", "file-encoding", "file-type"]
+separator = "│"
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
+
+# --- Indentation guides ---
+[editor.indent-guides]
+render = true
+character = "│"
+skip-levels = 1
+
+# --- Whitespace rendering (spaces/tabs/newlines) ---
+[editor.whitespace.render]
+space = "all"        # "none" | "all" | "boundary"
+tab = "all"
+newline = "none"
+
+[editor.whitespace.characters]
+space = "·"
+nbsp = "⍽"
+tab = "→"
+newline = "⏎"
+tabpad = "·"
+
+# --- Soft-wrap configuration ---
+[editor.soft-wrap]
+enable = true
+wrap-at-text-width = false
+max-wrap = 20
+wrap-indicator = "↲"
+
+
+[editor.file-picker]
+hidden = false
+git-ignore = true
+
+
+# --- LSP (general behaviour) ---
+[editor.lsp]
+display-messages = true
+auto-signature-help = true
+snippets = true

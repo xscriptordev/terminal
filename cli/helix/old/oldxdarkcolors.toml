@@ -1,0 +1,47 @@
+# x_dark_colors.toml  (autor: Xscriptor)
+
+"ui.background" = { bg = "bg" }
+"ui.text"       = { fg = "fg" }
+"ui.cursor"     = { fg = "bg", bg = "fg" }
+"ui.selection"  = { bg = "sel", fg = "fg" }
+
+"ui.linenr"            = { fg = "#666666" }
+"ui.linenr.selected"   = { fg = "fg" }
+"ui.statusline"        = { fg = "fg", bg = "#1E1E1E" }
+"ui.statusline.inactive" = { fg = "#BBBBBB", bg = "#1A1A1A" }
+"ui.cursorline"        = { bg = "#1A1A1A" }
+"ui.popup"             = { bg = "#181818" }
+"ui.menu"              = { fg = "fg", bg = "#181818" }
+"ui.menu.selected"     = { fg = "bg", bg = "bracket5" }
+"ui.window"            = { bg = "bg" }
+"ui.help"              = { fg = "fg", bg = "#181818" }
+
+# Sintaxis
+"comment"  = { fg = "#888888", modifiers = ["italic"] }
+"string"   = { fg = "#FFBF4C" }
+"keyword"  = { fg = "bracket5" }
+"function" = { fg = "bracket6" }
+"variable" = { fg = "bracket2" }
+"type"     = { fg = "bracket3" }
+"constant" = { fg = "bracket1" }
+"tag"                   = { fg = "bracket5", modifiers = ["bold"] }
+"tag.builtin"           = { fg = "bracket6", modifiers = ["bold"] }
+"attribute"             = { fg = "bracket1" }
+"attribute.builtin"     = { fg = "bracket2" }
+"namespace"             = { fg = "bracket4" }
+"operator"              = { fg = "#FF4C8B" }
+"punctuation.bracket"   = { fg = "#FF4C8B" }
+"punctuation.delimiter" = { fg = "#47CFFF" }
+
+
+[palette]
+bg = "#0E0E10"
+fg = "#F0F0F0"
+sel = "#333333"
+
+bracket1 = "#FF4C8B"
+bracket2 = "#00FFA8"
+bracket3 = "#FFD84C"
+bracket4 = "#7FFFD4"
+bracket5 = "#47CFFF"
+bracket6 = "#D36CFF"
