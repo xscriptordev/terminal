@@ -87,6 +87,7 @@ My own collection of terminal themes and color schemes designed for a consistent
 ![Wave](https://img.shields.io/badge/Wave-000000)
 ![WezTerm](https://img.shields.io/badge/WezTerm-000000)
 ![XFCE Terminal](https://img.shields.io/badge/XFCE_Terminal-2284F2?logo=xfce)
+![Terax](https://img.shields.io/badge/Terax-000000)
 
 </div>
 

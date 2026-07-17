@@ -94,6 +94,11 @@ irm https://raw.githubusercontent.com/xscriptor/terminal/main/emulators/powershe
       <a href="./xfce/README.md">XFCE Terminal</a>
       <pre><code>wget -qO- https://raw.githubusercontent.com/xscriptor/terminal/main/emulators/xfce/install.sh | bash</code></pre>
     </li>
+    <li>
+      <a href="./terax/README.md">Terax</a>
+      <pre><code>curl -fsSL https://raw.githubusercontent.com/xscriptor/terminal/main/emulators/terax/install-terax-themes.sh | bash</code></pre>
+      <small>AI terminal dev workspace — <a href="https://github.com/crynta/terax-ai">github.com/crynta/terax-ai</a></small>
+    </li>
   </ul>
   <p>Note: In some directories you will find an <code>install.sh</code> script you can run to simplify theme installation for the terminal you use.</p>
 </details>
