@@ -131,7 +131,7 @@ ensure_gnome_terminal() {
 
 ensure_gnome_terminal || true
 
-RAW_BASE="https://raw.githubusercontent.com/xscriptor/terminal/main/emulators/gnome-terminal"
+RAW_BASE="https://raw.githubusercontent.com/xscriptor-colors/terminal/main/emulators/gnome-terminal"
 THEMES_FILES="x madrid lahabana miami paris tokio oslo helsinki berlin london praha bogota"
 
 fetch_cmd() {

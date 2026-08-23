@@ -1,7 +1,7 @@
 param(
   [string]$SetSchemeName = "x",
   [string]$ThemesDir = (Join-Path $PSScriptRoot "themes"),
-  [string]$RawBase = "https://raw.githubusercontent.com/xscriptor/terminal/main/emulators/powershell/themes"
+  [string]$RawBase = "https://raw.githubusercontent.com/xscriptor-colors/terminal/main/emulators/powershell/themes"
 )
 function Get-LocalAppData {
   if (-not [string]::IsNullOrWhiteSpace($env:LOCALAPPDATA)) { return $env:LOCALAPPDATA }

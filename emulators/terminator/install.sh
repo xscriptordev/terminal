@@ -88,7 +88,7 @@ fetch_file() {
   fi
 }
 
-RAW_BASE="https://raw.githubusercontent.com/xscriptor/terminal/main/emulators/terminator"
+RAW_BASE="https://raw.githubusercontent.com/xscriptor-colors/terminal/main/emulators/terminator"
 
 mkdir -p "$TARGET_CONFIG_DIR"
 

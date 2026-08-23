@@ -97,11 +97,11 @@
 
 <h2 align="center" id="quick-start">Quick Start</h2>
 
-<pre><code>curl -fsSL https://raw.githubusercontent.com/xscriptor/terminal/main/cli/claude-code/scripts/install.sh | bash</code></pre>
+<pre><code>curl -fsSL https://raw.githubusercontent.com/xscriptor-colors/terminal/main/cli/claude-code/scripts/install.sh | bash</code></pre>
 
 <p>Or clone and run locally:</p>
 
-<pre><code>git clone https://github.com/xscriptor/terminal.git
+<pre><code>git clone https://github.com/xscriptor-colors/terminal.git
 cd terminal/cli/claude-code
 bash scripts/install.sh</code></pre>
 
@@ -119,7 +119,7 @@ bash scripts/install.sh</code></pre>
 <div id="x" align="center">
 <h2 align="center">X</h2>
 
-<a href="https://dev.xscriptor.com">
+<a href="https://xscriptor.io">
   <img src="https://xscriptor.github.io/icons/icons/code/product-design/xsvg/verified-filled.svg" width="24" alt="X Web" />
 </a>
  &amp;

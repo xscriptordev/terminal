@@ -12,9 +12,9 @@ sh wezterm/install.sh
 - Remote one‑liner:
 
 ```bash
-wget -qO- https://raw.githubusercontent.com/xscriptor/terminal/main/emulators/wezterm/install.sh | sh
+wget -qO- https://raw.githubusercontent.com/xscriptor-colors/terminal/main/emulators/wezterm/install.sh | sh
 # or
-curl -fsSL https://raw.githubusercontent.com/xscriptor/terminal/main/emulators/wezterm/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/xscriptor-colors/terminal/main/emulators/wezterm/install.sh | sh
 ```
 
 ## What It Does
@@ -25,9 +25,9 @@ curl -fsSL https://raw.githubusercontent.com/xscriptor/terminal/main/emulators/w
 ## Uninstall
 - Remote one‑liner:
 ```bash
-wget -qO- https://raw.githubusercontent.com/xscriptor/terminal/main/emulators/wezterm/uninstall.sh | sh
+wget -qO- https://raw.githubusercontent.com/xscriptor-colors/terminal/main/emulators/wezterm/uninstall.sh | sh
 # or
-curl -fsSL https://raw.githubusercontent.com/xscriptor/terminal/main/emulators/wezterm/uninstall.sh | sh
+curl -fsSL https://raw.githubusercontent.com/xscriptor-colors/terminal/main/emulators/wezterm/uninstall.sh | sh
 ```
 - Local:
 ```bash

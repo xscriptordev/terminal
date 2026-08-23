@@ -26,7 +26,7 @@ echo ""
 
 read -p "Enter your choice (1-15): " choice
 
-url_base="https://raw.githubusercontent.com/xscriptor/terminal/main/emulators"
+url_base="https://raw.githubusercontent.com/xscriptor-colors/terminal/main/emulators"
 
 case $choice in
     1)

@@ -2,6 +2,10 @@
 
 All notable changes to Terminal Xscriptor will be documented in this file.
 
+## 2026-08-23
+
+- Migrate all customizations to xscriptor-colors
+
 ## 2026-07-17
 
 ### Added
