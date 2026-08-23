@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 set -eu
 
-DEFAULT_REPO_URL="https://github.com/xscriptor/terminal"
+DEFAULT_REPO_URL="https://github.com/xscriptor-colors/terminal"
 BRANCH="main"
 DRY_RUN="0"
 FORCE="0"
@@ -23,8 +23,8 @@ Options:
   --help               Show this help
 
 Remote usage:
-  sh -c "\$(curl -fsSL https://raw.githubusercontent.com/xscriptor/terminal/main/cli/gitnapse/scripts/install.sh)" -- [options]
-  sh -c "\$(wget -qO- https://raw.githubusercontent.com/xscriptor/terminal/main/cli/gitnapse/scripts/install.sh)" -- [options]
+  sh -c "\$(curl -fsSL https://raw.githubusercontent.com/xscriptor-colors/terminal/main/cli/gitnapse/scripts/install.sh)" -- [options]
+  sh -c "\$(wget -qO- https://raw.githubusercontent.com/xscriptor-colors/terminal/main/cli/gitnapse/scripts/install.sh)" -- [options]
 EOF
 }
 

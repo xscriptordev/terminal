@@ -2,7 +2,7 @@ param(
   [switch]$Restore,
   [switch]$Force,
   [string]$ThemesDir,
-  [string]$RawBase = "https://raw.githubusercontent.com/xscriptor/terminal/main/emulators/powershell/themes"
+  [string]$RawBase = "https://raw.githubusercontent.com/xscriptor-colors/terminal/main/emulators/powershell/themes"
 )
 $ErrorActionPreference = "Stop"
 function Get-LocalAppData {

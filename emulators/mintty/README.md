@@ -1,7 +1,7 @@
 # Xscriptor Mintty Themes
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/xscriptor/terminal/main/previews/mintty/preview.jpg" alt="Preview" width="900"/>
+  <img src="https://raw.githubusercontent.com/xscriptor-colors/terminal/main/previews/mintty/preview.jpg" alt="Preview" width="900"/>
 </p>
 
 ## Files

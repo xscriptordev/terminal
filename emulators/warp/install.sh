@@ -2,7 +2,7 @@
 set -e
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 SRC_DIR="$SCRIPT_DIR/themes"
-RAW_BASE="https://raw.githubusercontent.com/xscriptor/terminal/main/emulators/warp/themes"
+RAW_BASE="https://raw.githubusercontent.com/xscriptor-colors/terminal/main/emulators/warp/themes"
 
 detect_target() {
   OS="$(uname -s)"

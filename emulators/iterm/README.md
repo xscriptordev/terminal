@@ -31,7 +31,7 @@ Location: `./themes`
 ## Installation
 - One-liner:
 ```bash
-wget -qO- https://raw.githubusercontent.com/xscriptor/terminal/main/emulators/iterm/install.sh | bash
+wget -qO- https://raw.githubusercontent.com/xscriptor-colors/terminal/main/emulators/iterm/install.sh | bash
 ```
 or
 - Local run:
@@ -58,9 +58,9 @@ What it does:
 ## Uninstall
 - Remote one‑liner:
 ```bash
-wget -qO- https://raw.githubusercontent.com/xscriptor/terminal/main/emulators/iterm/uninstall.sh | bash
+wget -qO- https://raw.githubusercontent.com/xscriptor-colors/terminal/main/emulators/iterm/uninstall.sh | bash
 # or
-curl -fsSL https://raw.githubusercontent.com/xscriptor/terminal/main/emulators/iterm/uninstall.sh | bash
+curl -fsSL https://raw.githubusercontent.com/xscriptor-colors/terminal/main/emulators/iterm/uninstall.sh | bash
 ```
 - Local:
 ```bash

@@ -18,11 +18,11 @@ eval "$(oh-my-posh init zsh --config "$PWD/prompts/ohmyposh/themes/x.json")"
 
 <p>This script downloads the full <code>prompts/ohmyposh</code> folder (themes) and adds a helper function to your shell config.</p>
 
-<pre><code>curl -fsSL https://raw.githubusercontent.com/xscriptor/terminal/main/prompts/ohmyposh/install.sh | bash</code></pre>
+<pre><code>curl -fsSL https://raw.githubusercontent.com/xscriptor-colors/terminal/main/prompts/ohmyposh/install.sh | bash</code></pre>
 
 <p>Uninstall:</p>
 
-<pre><code>curl -fsSL https://raw.githubusercontent.com/xscriptor/terminal/main/prompts/ohmyposh/install.sh | bash -s -- --uninstall</code></pre>
+<pre><code>curl -fsSL https://raw.githubusercontent.com/xscriptor-colors/terminal/main/prompts/ohmyposh/install.sh | bash -s -- --uninstall</code></pre>
 
 <p>Install path (default): <code>~/.config/xscriptor/ohmyposh</code></p>
 

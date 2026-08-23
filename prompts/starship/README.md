@@ -20,11 +20,11 @@ eval "$(starship init zsh)"
 
 <p>This script downloads the full <code>prompts/starship</code> folder (themes and <code>starship.toml</code>) and adds a helper function to your shell config.</p>
 
-<pre><code>curl -fsSL https://raw.githubusercontent.com/xscriptor/terminal/main/prompts/starship/install.sh | bash</code></pre>
+<pre><code>curl -fsSL https://raw.githubusercontent.com/xscriptor-colors/terminal/main/prompts/starship/install.sh | bash</code></pre>
 
 <p>Uninstall:</p>
 
-<pre><code>curl -fsSL https://raw.githubusercontent.com/xscriptor/terminal/main/prompts/starship/install.sh | bash -s -- --uninstall</code></pre>
+<pre><code>curl -fsSL https://raw.githubusercontent.com/xscriptor-colors/terminal/main/prompts/starship/install.sh | bash -s -- --uninstall</code></pre>
 
 <p>Install path (default): <code>~/.config/xscriptor/starship</code></p>
 

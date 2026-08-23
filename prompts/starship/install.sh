@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-REPO_URL="https://github.com/xscriptor/terminal"
+REPO_URL="https://github.com/xscriptor-colors/terminal"
 REF="${XSC_STARSHIP_REF:-main}"
 DEST_DIR="${XSC_STARSHIP_DIR:-$HOME/.config/xscriptor/starship}"
 

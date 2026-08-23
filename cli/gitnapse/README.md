@@ -93,9 +93,9 @@
 
 <p>Install all themes with curl or wget:</p>
 
-<pre><code>sh -c "$(curl -fsSL https://raw.githubusercontent.com/xscriptor/terminal/main/cli/gitnapse/scripts/install.sh)"</code></pre>
+<pre><code>sh -c "$(curl -fsSL https://raw.githubusercontent.com/xscriptor-colors/terminal/main/cli/gitnapse/scripts/install.sh)"</code></pre>
 
-<pre><code>sh -c "$(wget -qO- https://raw.githubusercontent.com/xscriptor/terminal/main/cli/gitnapse/scripts/install.sh)"</code></pre>
+<pre><code>sh -c "$(wget -qO- https://raw.githubusercontent.com/xscriptor-colors/terminal/main/cli/gitnapse/scripts/install.sh)"</code></pre>
 
 <p>Or run locally from the repo:</p>
 
@@ -105,7 +105,7 @@
 
 <ul>
   <li><code>--branch &lt;name&gt;</code>: remote branch to use (default: main)</li>
-  <li><code>--repo &lt;url&gt;</code>: remote repository URL (default: https://github.com/xscriptor/terminal)</li>
+  <li><code>--repo &lt;url&gt;</code>: remote repository URL (default: https://github.com/xscriptor-colors/terminal)</li>
   <li><code>--dry-run</code>: show actions without executing</li>
   <li><code>--force</code>: overwrite existing theme config</li>
   <li><code>--help</code>: show help</li>
@@ -135,7 +135,7 @@
 <div id="x" align="center">
 <h2>X</h2>
 
-<a href="https://dev.xscriptor.com">
+<a href="https://xscriptor.io">
   <img src="https://xscriptor.github.io/icons/icons/code/product-design/xsvg/verified-filled.svg" width="24" alt="X Web" />
 </a>
  & 
