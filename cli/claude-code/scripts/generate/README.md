@@ -9,14 +9,14 @@ Generates Claude Code theme files from X Colors palette definitions (`colors.md`
 python generate.py
 
 # Use the colors.md URL directly
-python generate.py https://raw.githubusercontent.com/xscriptor/xassets/main/colors/colors.md
+python generate.py https://raw.githubusercontent.com/xscriptor-colors/terminal/main/colors.md
 
 # Use a local colors.md file
 python generate.py ./colors.md
 
 # Specify output directory
 python generate.py --out ../themes
-python generate.py https://raw.githubusercontent.com/xscriptor/xassets/main/colors/colors.md -o ~/.claude/themes
+python generate.py https://raw.githubusercontent.com/xscriptor-colors/terminal/main/colors.md -o ~/.claude/themes
 ```
 
 ## How it works

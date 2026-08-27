@@ -1,8 +1,6 @@
 <h1 align="center">Xscriptor GitNapse</h1>
 
-<p align="center"><img src="https://raw.githubusercontent.com/xscriptor/xassets/main/xrepos/terminal/logo.svg" width="50" alt="Terminal Xscriptor logo" /></p>
-
-<p>A collection of colour themes for <a href="https://github.com/xscriptor/gitnapse">GitNapse</a>, the TUI client for GitHub. These schemes are drawn from the Xscriptor palette system and designed to provide a consistent visual experience across all tools.</p>
+<p>A collection of colour themes for <a href="https://github.com/xscriptor-colors/terminal/tree/main/cli/gitnapse">GitNapse</a>, the TUI client for GitHub. These schemes are drawn from the Xscriptor palette system and designed to provide a consistent visual experience across all tools.</p>
 
 <h2 align="center">Table of Contents</h2>
 
@@ -128,23 +126,17 @@
 <h2 align="center" id="related-documents">Related Documents</h2>
 
 <ul>
-  <li><a href="https://github.com/xscriptor/gitnapse">GitNapse Repository</a> - The TUI client for GitHub</li>
+  <li><a href="https://github.com/xscriptor-colors/terminal/tree/main/cli/gitnapse">GitNapse Repository</a> - The TUI client for GitHub</li>
   <li><a href="../../colors.md">Colors</a> - Full Xscriptor colour palette reference</li>
 </ul>
 
 <div id="x" align="center">
 <h2>X</h2>
 
-<a href="https://xscriptor.io">
-  <img src="https://xscriptor.github.io/icons/icons/code/product-design/xsvg/verified-filled.svg" width="24" alt="X Web" />
-</a>
+<a href="https://xscriptor.io">Dev</a>
  & 
-<a href="https://github.com/xscriptor">
-  <img src="https://xscriptor.github.io/icons/icons/code/product-design/xsvg/github.svg" width="24" alt="X Github Profile" />
-</a>
+<a href="https://github.com/xscriptor">github</a>
  & 
-<a href="https://www.xscriptor.com">
-  <img src="https://xscriptor.github.io/icons/icons/code/product-design/xsvg/quotes.svg" width="24" alt="Xscriptor web" />
-</a>
+<a href="https://www.xscriptor.com">X</a>
 
 </div>

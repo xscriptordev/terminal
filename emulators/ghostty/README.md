@@ -1,14 +1,5 @@
 # Xscriptor Ghostty Themes
 
----
-## Previews
-
-<p align="center">
-  <img src="./previews/preview2.jpg" alt="Preview" width="500"/>
-  <img src="./previews/preview1.jpg" alt="Preview" width="500"/>
-</p>
-
-
 ## Files
 - `config`: Base Ghostty configuration that sets `x.ini` and other defaults.
 - `install.sh`: Installs themes and configuration, ensures dependencies, and adds shell aliases for fast theme switching.

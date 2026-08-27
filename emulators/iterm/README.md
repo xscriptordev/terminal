@@ -1,14 +1,5 @@
 # Xscriptor iTerm2 Themes
 
-<p align="center">
-  <img src="./previews/preview1.jpg" alt="Preview" width="900"/>
-</p>
-
-<p align="center">
-  <img src="./previews/preview2.jpg" alt="Preview" width="900"/>
-</p>
-
-
 ## Files
 Location: `./themes`
 - `x.itermcolors`

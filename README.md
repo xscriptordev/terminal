@@ -1,4 +1,4 @@
-<h1 align="center">Terminal Xscriptor</h1>
+<h1 align="center">Terminal</h1>
 
 <div align="center">
 
@@ -19,7 +19,7 @@ My own collection of terminal themes and color schemes designed for a consistent
 
 </div>
 
-<p align="center"><img src="https://raw.githubusercontent.com/xscriptor/xassets/main/xrepos/terminal/logo.svg" width="50" alt="Terminal Xscriptor logo" /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/xscriptor-colors/assets/main/xrepos/terminal/logo.svg" width="50" alt="Terminal Xscriptor logo" /></p>
 
 
 
@@ -28,14 +28,14 @@ My own collection of terminal themes and color schemes designed for a consistent
 <h2 align="center">Content:</h2>
 
 <ul>
-  <li><a href="#previews">Previews</a> <img src="https://xscriptor.github.io/icons/icons/code/product-design/xsvg/device-camera.svg" /></li>
-  <li><a href="#supported-terminals">Supported Terminals</a> <img src="https://xscriptor.github.io/icons/icons/code/product-design/xsvg/terminal.svg"/></li>
-  <li><a href="#prompts">Prompts</a> <img src="https://xscriptor.github.io/icons/icons/code/product-design/xsvg/terminal-bash.svg" /></li>
-  <li><a href="#colors">Colors</a> <img src="https://xscriptor.github.io/icons/icons/code/product-design/xsvg/symbol-color.svg" /></li>
-  <li><a href="#cli">CLI</a> <img src="https://xscriptor.github.io/icons/icons/code/product-design/xsvg/terminal.svg" /></li>
-  <li><a href="#related-files">Related Files</a> <img src="https://xscriptor.github.io/icons/icons/code/product-design/xsvg/file-code.svg"/></li>
-  <li><a href="#related-repos">Related Repos</a> <img src="https://xscriptor.github.io/icons/icons/code/product-design/xsvg/repo-forked.svg"/></li>
-  <li><a href="#x">X</a> <img src="https://xscriptor.github.io/icons/icons/code/product-design/xsvg/regex.svg" /></li>
+  <li><a href="#previews">Previews</a></li>
+  <li><a href="#supported-terminals">Supported Terminals</a></li>
+  <li><a href="#prompts">Prompts</a></li>
+  <li><a href="#colors">Colors</a></li>
+  <li><a href="#cli">CLI</a></li>
+  <li><a href="#related-files">Related Files</a></li>
+  <li><a href="#related-repos">Related Repos</a></li>
+  <li><a href="#x">X</a></li>
 </ul>
 
 
@@ -43,13 +43,13 @@ My own collection of terminal themes and color schemes designed for a consistent
 <hr>
 
 
-<p align="right"><em>GIF preview synthesis; you can view an interactive output of the schemes directly on my webpage:</em> <a href="https://xscriptor.io/en/resources/terminal/">https://xscriptor.io/en/resources/terminal/</a> <img src="https://xscriptor.github.io/icons/icons/code/product-design/xsvg/symbol-color.svg" /></p>
+<p align="right"><em>GIF preview synthesis; you can view an interactive output of the schemes directly on my webpage:</em> <a href="https://colors.xscriptor.io/terminal">https://xscriptor.io/en/resources/terminal/</a></p>
 
 
 <hr>
 
 <p align="center">
-  <a href="https://xscriptor.io/en/resources/terminal/">
+  <a href="https://colors.xscriptor.io/terminal">
     <img src="https://i.imgur.com/bREt7iI.gif" width="900" alt="Demo" >
   </a>
 </p>
@@ -157,28 +157,22 @@ My own collection of terminal themes and color schemes designed for a consistent
 
 <h2 align="center" id="related-repos">Related Repos</h2>
 <ul>
-  <li><a href="https://github.com/xscriptor-colors/vscode">VSCode </a><img src="https://xscriptor.github.io/icons/icons/code/product-design/xsvg/project.svg"/></li>
-  <li><a href="https://github.com/xscriptor/xcode">XCode </a><img src="https://xscriptor.github.io/icons/icons/code/product-design/xsvg/project.svg"/></li>
-  <li><a href="https://github.com/xscriptor-colors/nvim">Nvim </a><img src="https://xscriptor.github.io/icons/icons/code/product-design/xsvg/file-text.svg"/></li>
-  <li><a href="https://github.com/xscriptor-colors/jetbrains">Jetbrains </a><img src="https://xscriptor.github.io/icons/icons/code/product-design/xsvg/project.svg"/></li>
-  <li><a href="https://github.com/xscriptor/gitnapse">Gitnapse </a><img src="https://xscriptor.github.io/icons/icons/code/product-design/xsvg/github-alt.svg"/></li>
-  <li><a href="https://github.com/xscriptor-colors/obsidian">Obsidian </a><img src="https://xscriptor.github.io/icons/icons/code/product-design/xsvg/markdown.svg"/></li>
-  <li><a href="https://github.com/xscriptor/xfetch">XFetch </a><img src="https://xscriptor.github.io/icons/icons/code/product-design/xsvg/git-fetch.svg"/></li>
+  <li><a href="https://github.com/xscriptor-colors/vscode">VSCode </a></li>
+  <li><a href="https://github.com/xscriptor/xcode">XCode </a></li>
+  <li><a href="https://github.com/xscriptor-colors/nvim">Nvim </a></li>
+  <li><a href="https://github.com/xscriptor-colors/jetbrains">Jetbrains </a></li>
+  <li><a href="https://github.com/xscriptor-colors/terminal/tree/main/cli/gitnapse">Gitnapse </a></li>
+  <li><a href="https://github.com/xscriptor-colors/obsidian">Obsidian </a></li>
+  <li><a href="https://github.com/xscriptor/xfetch">XFetch </a></li>
 </ul>
 
 <div id="x" align="center">
 <h2>X</h2>
 
-<a href="https://xscriptor.io">
-  <img src="https://xscriptor.github.io/icons/icons/code/product-design/xsvg/verified-filled.svg" width="24" alt="X Web" />
-</a>
+<a href="https://xscriptor.io">Dev</a>
  & 
-<a href="https://github.com/xscriptor">
-  <img src="https://xscriptor.github.io/icons/icons/code/product-design/xsvg/github.svg" width="24" alt="X Github Profile" />
-</a>
+<a href="https://github.com/xscriptor">github</a>
  & 
-<a href="https://www.xscriptor.com">
-  <img src="https://xscriptor.github.io/icons/icons/code/product-design/xsvg/quotes.svg" width="24" alt="Xscriptor web" />
-</a>
+<a href="https://www.xscriptor.com">X</a>
 
 </div>

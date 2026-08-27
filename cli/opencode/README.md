@@ -1,7 +1,5 @@
 <h1 align="center">Xscriptor OpenCode</h1>
 
-<p align="center"><img src="https://raw.githubusercontent.com/xscriptor/xassets/main/xrepos/opencode/logo.svg" width="100" alt="Opencode Xscriptor logo" /></p>
-
 <p>A collection of themes, configurations, and tooling for <a href="https://opencode.ai">OpenCode</a>, the open source AI coding agent for the terminal.</p>
 
 <p>This repository contains carefully crafted terminal color schemes translated into OpenCode's semantic theme format, along with utilities for installation and management.</p>
@@ -104,7 +102,7 @@
 
 <h2 align="center" id="quick-start">Quick Start</h2>
 
-<pre><code>curl -fsSL https://raw.githubusercontent.com/xscriptor/opencode/main/themes/xscriptor-themes/install.sh | bash</code></pre>
+<pre><code>curl -fsSL https://raw.githubusercontent.com/xscriptor-colors/terminal/main/cli/opencode/themes/xscriptor-themes/install.sh | bash</code></pre>
 
 <p>Then select a theme in OpenCode with <code>/theme</code> or set it in <code>tui.json</code>:</p>
 
@@ -134,16 +132,10 @@
 <div id="x" align="center">
 <h2 align="center">X</h2>
 
-<a href="https://xscriptor.io">
-  <img src="https://xscriptor.github.io/icons/icons/code/product-design/xsvg/verified-filled.svg" width="24" alt="X Web" />
-</a>
+<a href="https://xscriptor.io">Dev</a>
  & 
-<a href="https://github.com/xscriptor">
-  <img src="https://xscriptor.github.io/icons/icons/code/product-design/xsvg/github.svg" width="24" alt="X Github Profile" />
-</a>
+<a href="https://github.com/xscriptor">github</a>
  & 
-<a href="https://www.xscriptor.com">
-  <img src="https://xscriptor.github.io/icons/icons/code/product-design/xsvg/quotes.svg" width="24" alt="Xscriptor web" />
-</a>
+<a href="https://www.xscriptor.com">X</a>
 
 </div>

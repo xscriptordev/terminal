@@ -2,10 +2,6 @@
 
 <p>Oh My Posh themes generated from the <a href="../colors.md">X colour palettes</a> following the same canonical colour mapping as the Starship themes.</p>
 
-<h2>Preview</h2>
-
-<p align="center"><img src="https://raw.githubusercontent.com/xscriptor/xassets/main/xrepos/terminal/prompts/previews/ohmyposh_preview.png" width="500" alt="Oh My Posh theme preview" /></p>
-
 <h2>Quick Start</h2>
 
 <pre><code>export POSH_THEMES_PATH="$PWD/prompts/ohmyposh/themes"

@@ -8,13 +8,8 @@
 
 </div>
 
-<p align="center"> 
-  <img src="./assets/icon.png" width="43" alt="Xscriptor Theme logo" /> 
-</p>
-
 <h2 align="center">Table of Contents</h2>
 <p align="center">
-  <a href="#previews">Previews</a> •
   <a href="#installation">Installation</a> •
   <a href="#script-options">Script Options</a> •
   <a href="#what-the-installer-does">What the installer does</a> •
@@ -24,61 +19,29 @@
   <a href="#x">X</a> 
 </p>
 
-<h2 align="center" id="previews"> Previews </h2>
-
-<p align="center">
-  <a href="./assets/previews/preview01png">
-    <img src="./assets/previews/preview01.png" alt="Main preview" width="850"/>
-  </a>
-</p>
-
-<details>
-  <summary>More previews</summary>
-
-  <table align="center">
-    <tr>
-      <td align="center">
-        <a href="./assets/previews/preview02.png">
-          <img src="./assets/previews/preview02.png" alt="Preview 2" width="380"/>
-        </a>
-      </td>
-      <td align="center">
-        <a href="./assets/previews/preview03.png">
-          <img src="./assets/previews/preview03.png" alt="Preview 3" width="380"/>
-        </a>
-      </td>
-      <td align="center">
-        <a href="./assets/previews/preview04.png">
-          <img src="./assets/previews/preview04.png" alt="Preview 4" width="380"/>
-        </a>
-      </td>
-    </tr>
-  </table>
-</details>
-
 <h2 align="center" id="installation"> Installation </h2>
 
 <p>Quick remote install using curl or wget:</p>
 
 <pre><code># Complete (config + themes) with curl
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/xscriptor/helix/main/install.sh)" -- --complete
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/xscriptor-colors/terminal/main/cli/helix/install.sh)" -- --complete
 
 # Complete (config + themes) with wget
-sh -c "$(wget -qO- https://raw.githubusercontent.com/xscriptor/helix/main/install.sh)" -- --complete</code></pre>
+sh -c "$(wget -qO- https://raw.githubusercontent.com/xscriptor-colors/terminal/main/cli/helix/install.sh)" -- --complete</code></pre>
 
 <p>Other modes:</p>
 
 <pre><code># Themes only
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/xscriptor/helix/main/install.sh)" -- --themes-only
-sh -c "$(wget -qO- https://raw.githubusercontent.com/xscriptor/helix/main/install.sh)" -- --themes-only
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/xscriptor-colors/terminal/main/cli/helix/install.sh)" -- --themes-only
+sh -c "$(wget -qO- https://raw.githubusercontent.com/xscriptor-colors/terminal/main/cli/helix/install.sh)" -- --themes-only
 
 # Minimal config + themes
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/xscriptor/helix/main/install.sh)" -- --minimal
-sh -c "$(wget -qO- https://raw.githubusercontent.com/xscriptor/helix/main/install.sh)" -- --minimal
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/xscriptor-colors/terminal/main/cli/helix/install.sh)" -- --minimal
+sh -c "$(wget -qO- https://raw.githubusercontent.com/xscriptor-colors/terminal/main/cli/helix/install.sh)" -- --minimal
 
 # Custom branch or repository
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/xscriptor/helix/main/install.sh)" -- --branch main --repo https://github.com/xscriptor/helix
-sh -c "$(wget -qO- https://raw.githubusercontent.com/xscriptor/helix/main/install.sh)" -- --branch main --repo https://github.com/xscriptor/helix</code></pre>
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/xscriptor-colors/terminal/main/cli/helix/install.sh)" -- --branch main --repo https://github.com/xscriptor-colors/terminal
+sh -c "$(wget -qO- https://raw.githubusercontent.com/xscriptor-colors/terminal/main/cli/helix/install.sh)" -- --branch main --repo https://github.com/xscriptor-colors/terminal</code></pre>
 
 <h2 align="center" id="script-options"> Script Options </h2>
 
@@ -87,7 +50,7 @@ sh -c "$(wget -qO- https://raw.githubusercontent.com/xscriptor/helix/main/instal
   <li>--minimal: install minimal config + themes</li>
   <li>--complete: install complete config + themes (default)</li>
   <li>--branch &lt;name&gt;: remote branch to use (default: main)</li>
-  <li>--repo &lt;url&gt;: remote repository URL (default: https://github.com/xscriptor/helix)</li>
+  <li>--repo &lt;url&gt;: remote repository URL (default: https://github.com/xscriptor-colors/terminal)</li>
   <li>--dry-run: show actions without executing</li>
   <li>--force: overwrite without creating backup</li>
   <li>--no-backup: do not create a backup of existing config</li>
@@ -141,16 +104,10 @@ sh -c "$(wget -qO- https://raw.githubusercontent.com/xscriptor/helix/main/instal
 <div id="x" align="center">
 <h2>X</h2>
 
-<a href="https://xscriptor.io">
-  <img src="https://xscriptor.github.io/icons/icons/code/product-design/xsvg/verified-filled.svg" width="24" alt="X Web" />
-</a>
+<a href="https://xscriptor.io">Dev</a>
  & 
-<a href="https://github.com/xscriptor">
-  <img src="https://xscriptor.github.io/icons/icons/code/product-design/xsvg/github.svg" width="24" alt="X Github Profile" />
-</a>
+<a href="https://github.com/xscriptor">github</a>
  & 
-<a href="https://www.xscriptor.com">
-  <img src="https://xscriptor.github.io/icons/icons/code/product-design/xsvg/quotes.svg" width="24" alt="Xscriptor web" />
-</a>
+<a href="https://www.xscriptor.com">X</a>
 
 </div>

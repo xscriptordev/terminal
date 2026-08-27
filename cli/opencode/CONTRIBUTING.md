@@ -6,7 +6,7 @@
 
 <h3>Reporting Issues</h3>
 
-<p>If you find a bug or have a suggestion, open an issue at <a href="https://github.com/xscriptor/opencode/issues">github.com/xscriptor/opencode/issues</a>. Include as much detail as possible:</p>
+<p>If you find a bug or have a suggestion, open an issue at <a href="https://github.com/xscriptor-colors/terminal/issues">github.com/xscriptor-colors/terminal/issues</a>. Include as much detail as possible:</p>
 
 <ul>
   <li>A clear description of the issue</li>

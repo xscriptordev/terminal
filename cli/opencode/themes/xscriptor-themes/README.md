@@ -89,12 +89,12 @@
 
 <p>Run the install script directly from GitHub:</p>
 
-<pre><code>curl -fsSL https://raw.githubusercontent.com/xscriptor/opencode/main/themes/xscriptor-themes/install.sh | bash</code></pre>
+<pre><code>curl -fsSL https://raw.githubusercontent.com/xscriptor-colors/terminal/main/cli/opencode/themes/xscriptor-themes/install.sh | bash</code></pre>
 
 <p>Or clone the repository and run the script locally:</p>
 
-<pre><code>git clone https://github.com/xscriptor/opencode.git
-cd opencode/themes/xscriptor-themes
+<pre><code>git clone https://github.com/xscriptor-colors/terminal.git
+cd terminal/cli/opencode/themes/xscriptor-themes
 chmod +x install.sh
 ./install.sh</code></pre>
 
@@ -155,7 +155,7 @@ cp colors/*.json ~/.config/opencode/themes/</code></pre>
 
 <h2>Source</h2>
 
-<p>The original ANSI color definitions are documented in <a href="https://github.com/xscriptor/opencode/blob/main/colors.md"><code>colors.md</code></a> at the repository root.</p>
+<p>The original ANSI color definitions are documented in <a href="https://github.com/xscriptor-colors/terminal/blob/main/colors.md"><code>colors.md</code></a> at the repository root.</p>
 
 <h2>License</h2>
 

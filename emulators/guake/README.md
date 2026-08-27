@@ -1,9 +1,5 @@
 # Xscriptor Guake Themes
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/xscriptor-colors/terminal/main/previews/guake/preview.jpg" alt="Preview" width="900"/>
-</p>
-
 ## Files
 
 <ul>

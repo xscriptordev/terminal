@@ -1,24 +1,5 @@
 # Xscriptor PowerShell / Windows Terminal / WSL Themes
 
----
-
-## Previews
-
-<p align="center">
-  <img src="./previews/preview2.jpg" alt="Preview" width="900"/>
-</p>
-<p align="center">
-  <img src="./previews/preview3.jpg" alt="Preview" width="900"/>
-</p>
-<p align="center">
-  <img src="./previews/preview.png" alt="Preview" width="400"/>
-  <img src="./previews/preview1.jpg" alt="Preview" width="400"/>
-</p>
-<p align="center">
-<img src="./previews/preview4.jpg" alt="Preview" width="900"/>
-</p>
-
-
 ## Quick Install
 
 - Open PowerShell

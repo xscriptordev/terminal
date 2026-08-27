@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 set -eu
 
-DEFAULT_REPO_URL="https://github.com/xscriptor/helix"
+DEFAULT_REPO_URL="https://github.com/xscriptor-colors/terminal"
 BRANCH="main"
 MODE="complete"
 DRY_RUN="0"
@@ -27,8 +27,8 @@ Options:
   --help               Show this help
 
 Remote usage:
-  sh -c "\$(curl -fsSL https://raw.githubusercontent.com/xscriptor/helix/main/install.sh)" -- [options]
-  sh -c "\$(wget -qO- https://raw.githubusercontent.com/xscriptor/helix/main/install.sh)" -- [options]
+  sh -c "\$(curl -fsSL https://raw.githubusercontent.com/xscriptor-colors/terminal/main/cli/helix/install.sh)" -- [options]
+  sh -c "\$(wget -qO- https://raw.githubusercontent.com/xscriptor-colors/terminal/main/cli/helix/install.sh)" -- [options]
 EOF
 }
 
@@ -87,6 +87,10 @@ detect_source_dir() {
     SRC_DIR="$(pwd)"
     return
   fi
+  if [ -d "./cli/helix/themes" ] && [ -d "./cli/helix/settings" ]; then
+    SRC_DIR="$(pwd)/cli/helix"
+    return
+  fi
   TMP_DIR="$(mktemp -d "${TMPDIR:-/tmp}/hx-inst.XXXXXX")"
   if command -v git >/dev/null 2>&1; then
     if [ "$DRY_RUN" = "1" ]; then
@@ -94,7 +98,11 @@ detect_source_dir() {
     else
       git clone --depth=1 -b "$BRANCH" "$REPO_URL" "$TMP_DIR/helix"
     fi
-    SRC_DIR="$TMP_DIR/helix"
+    if [ -d "$TMP_DIR/helix/cli/helix/themes" ]; then
+      SRC_DIR="$TMP_DIR/helix/cli/helix"
+    else
+      SRC_DIR="$TMP_DIR/helix"
+    fi
   else
     command -v curl >/dev/null 2>&1 || command -v wget >/dev/null 2>&1 || err "git or curl/wget required"
     command -v tar >/dev/null 2>&1 || err "tar is required for non-git download"
@@ -112,7 +120,8 @@ detect_source_dir() {
         wget -qO- "$TAR_URL" | tar -xz -C "$TMP_DIR"
       fi
     fi
-    CANDIDATE="$(find "$TMP_DIR" -maxdepth 1 -type d -name "*helix*" | head -n 1 || true)"
+    CANDIDATE="$(find "$TMP_DIR" -maxdepth 3 -type d -path "*cli/helix" | head -n 1 || true)"
+    [ -n "$CANDIDATE" ] || CANDIDATE="$(find "$TMP_DIR" -maxdepth 1 -type d -name "*helix*" | head -n 1 || true)"
     [ -n "$CANDIDATE" ] || err "Failed to extract remote repository"
     SRC_DIR="$CANDIDATE"
   fi
