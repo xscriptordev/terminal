@@ -1,4 +1,6 @@
-<h1 align="center">Terminal</h1>
+<h1 align="center"> Terminal <img src="https://raw.githubusercontent.com/xscriptor-colors/web/main/public/svg/icons/terminal.svg" width="30" alt="Windows Colors logo" />
+</h1>
+
 
 <div align="center">
 
@@ -18,10 +20,6 @@
 My own collection of terminal themes and color schemes designed for a consistent look and feel across Windows, macOS, and Linux.
 
 </div>
-
-<p align="center"><img src="https://raw.githubusercontent.com/xscriptor-colors/assets/main/xrepos/terminal/logo.svg" width="50" alt="Terminal Xscriptor logo" /></p>
-
-
 
 <hr>
 
@@ -43,14 +41,14 @@ My own collection of terminal themes and color schemes designed for a consistent
 <hr>
 
 
-<p align="right"><em>GIF preview synthesis; you can view an interactive output of the schemes directly on my webpage:</em> <a href="https://colors.xscriptor.io/terminal">https://xscriptor.io/en/resources/terminal/</a></p>
+<p align="right"><em>GIF preview synthesis; you can view an interactive output of the schemes directly on my webpage:</em> <a href="https://xscriptor-colors.github.io/web/terminal/">https://xscriptor.io/en/resources/terminal/</a></p>
 
 
 <hr>
 
 <p align="center">
-  <a href="https://colors.xscriptor.io/terminal">
-    <img src="https://i.imgur.com/bREt7iI.gif" width="900" alt="Demo" >
+  <a href="https://xscriptor-colors.github.io/web/terminal/">
+    <img src="https://xscriptor-colors.github.io/web/images/terminal/terminal.gif" width="900" alt="Demo" >
   </a>
 </p>
 
@@ -108,7 +106,7 @@ My own collection of terminal themes and color schemes designed for a consistent
 
 <p align="center">
   <a href="https://xscriptor.io/en/resources/terminal/">
-    <img src="https://i.imgur.com/GViyo51.gif" width="900" alt="Demo" >
+    <img src="https://xscriptor-colors.github.io/web/images/terminal/prompts.gif" width="900" alt="Demo" >
   </a>
 </p>
 
@@ -158,12 +156,9 @@ My own collection of terminal themes and color schemes designed for a consistent
 <h2 align="center" id="related-repos">Related Repos</h2>
 <ul>
   <li><a href="https://github.com/xscriptor-colors/vscode">VSCode </a></li>
-  <li><a href="https://github.com/xscriptor/xcode">XCode </a></li>
   <li><a href="https://github.com/xscriptor-colors/nvim">Nvim </a></li>
   <li><a href="https://github.com/xscriptor-colors/jetbrains">Jetbrains </a></li>
-  <li><a href="https://github.com/xscriptor-colors/terminal/tree/main/cli/gitnapse">Gitnapse </a></li>
   <li><a href="https://github.com/xscriptor-colors/obsidian">Obsidian </a></li>
-  <li><a href="https://github.com/xscriptor/xfetch">XFetch </a></li>
 </ul>
 
 <div id="x" align="center">
