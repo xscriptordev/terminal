@@ -17,7 +17,7 @@ import sys
 import urllib.request
 import urllib.error
 
-DEFAULT_COLORS_URL = "https://raw.githubusercontent.com/xscriptor/xassets/main/colors/colors.md"
+DEFAULT_COLORS_URL = "https://raw.githubusercontent.com/xscriptor-colors/terminal/main/colors.md"
 DEFAULT_OUTPUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "themes")
 
 

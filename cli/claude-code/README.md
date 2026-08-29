@@ -113,22 +113,16 @@ bash scripts/install.sh</code></pre>
   <li><a href="https://code.claude.com">Claude Code Website</a></li>
   <li><a href="https://code.claude.com/docs/en/terminal-config#create-a-custom-theme">Claude Code Custom Themes Documentation</a></li>
   <li><a href="https://github.com/anthropics/claude-code">Claude Code GitHub Repository</a></li>
-  <li><a href="https://github.com/xscriptor/xassets/blob/main/colors/colors.md">X Colors Reference</a></li>
+  <li><a href="https://github.com/xscriptor-colors/terminal/blob/main/colors.md">X Colors Reference</a></li>
 </ul>
 
 <div id="x" align="center">
 <h2 align="center">X</h2>
 
-<a href="https://xscriptor.io">
-  <img src="https://xscriptor.github.io/icons/icons/code/product-design/xsvg/verified-filled.svg" width="24" alt="X Web" />
-</a>
+<a href="https://xscriptor.io">Dev</a>
  &amp;
-<a href="https://github.com/xscriptor">
-  <img src="https://xscriptor.github.io/icons/icons/code/product-design/xsvg/github.svg" width="24" alt="X Github Profile" />
-</a>
+<a href="https://github.com/xscriptor">github</a>
  &amp;
-<a href="https://www.xscriptor.com">
-  <img src="https://xscriptor.github.io/icons/icons/code/product-design/xsvg/quotes.svg" width="24" alt="Xscriptor web" />
-</a>
+<a href="https://www.xscriptor.com">X</a>
 
 </div>

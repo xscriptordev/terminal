@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 # Xscriptor Themes for OpenCode - Install Script
 # Usage:
-#   Remote: curl -fsSL https://raw.githubusercontent.com/xscriptor/opencode/main/themes/xscriptor-themes/install.sh | bash
+#   Remote: curl -fsSL https://raw.githubusercontent.com/xscriptor-colors/terminal/main/cli/opencode/themes/xscriptor-themes/install.sh | bash
 #   Local:  ./install.sh
 set -euo pipefail
 
-REPO_URL="https://raw.githubusercontent.com/xscriptor/opencode/main"
+REPO_URL="https://raw.githubusercontent.com/xscriptor-colors/terminal/main/cli/opencode/themes/xscriptor-themes"
 THEMES_DIR="${XDG_CONFIG_HOME:-$HOME/.config}/opencode/themes"
 THEMES=(
   "x"
@@ -41,7 +41,7 @@ is_local() {
 install_remote() {
   echo "--> Downloading themes from GitHub..."
   for theme in "${THEMES[@]}"; do
-    url="$REPO_URL/themes/xscriptor-themes/colors/$theme.json"
+    url="$REPO_URL/colors/$theme.json"
     dest="$THEMES_DIR/$theme.json"
     if curl -fsSL "$url" -o "$dest"; then
       echo "    + $theme.json"

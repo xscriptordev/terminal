@@ -1,14 +1,5 @@
 # Xscriptor Konsole Themes
 
-<p align="center">
-<img src="./previews/preview1.jpg" alt="Preview" width="900"/>
-</p>
-
-<p align="center">
-  <img src="./previews/preview2.jpg" alt="Preview" width="500"/>
-  <img src="./previews/preview3.jpg" alt="Preview" width="500"/>
-</p>
-
 ## Files
 - `install.sh`: Installs themes to `~/.local/share/konsole` and adds aliases for switching schemes.
 - `themes/*.colorscheme`: Color scheme files ready for Konsole:

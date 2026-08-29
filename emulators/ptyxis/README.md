@@ -1,20 +1,5 @@
 # Xscriptor Ptyxis Themes
 
----
-
-## Previews
-
-<p align="center">
-  <img src="./previews/preview2.jpg" alt="Preview" width="900"/>
-</p>
-<p align="center">
-  <img src="./previews/preview3.jpg" alt="Preview" width="400"/>
-  <img src="./previews/preview4.jpg" alt="Preview" width="400"/>
-</p>
-<p align="center">
-  <img src="./previews/preview1.jpg" alt="Preview" width="900"/>
-</p>
-
 ## Files
 - `install.sh`: Installs palettes to `~/.local/share/org.gnome.Ptyxis/palettes`, sets the default theme, and adds aliases.
 - `themes/*.palette`: Palettes ready to use with Ptyxis:

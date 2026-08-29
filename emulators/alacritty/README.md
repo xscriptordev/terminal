@@ -1,15 +1,5 @@
 # Xscriptor Alacritty Themes
 
-## Previews
-
-<p align="center">
-  <img src="./previews/preview3.jpg" alt="Preview" width="900"/>
-</p>
-<p align="center">
-  <img src="./previews/preview2.jpg" alt="Preview" width="500"/>
-  <img src="./previews/preview1.jpg" alt="Preview" width="500"/>
-</p>
-
 ## Installation
 - You can install runing the following command:
 ```bash

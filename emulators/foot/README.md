@@ -1,15 +1,5 @@
 # Xscriptor Foot Themes
 
-## Previews
-
-<p align="center">
-  <img src="./previews/preview1.jpg" alt="Preview" width="900"/>
-</p>
-<p align="center">
-  <img src="./previews/preview2.jpg" alt="Preview" width="500"/>
-  <img src="./previews/preview3.jpg" alt="Preview" width="500"/>
-</p>
-
 ## Files
 - `foot.ini`: Base config that includes `themes/x.ini` by default.
 - `install.sh`: Installs themes and configuration, ensures dependencies, and sets shell aliases for quick theme switching.

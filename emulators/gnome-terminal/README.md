@@ -1,10 +1,5 @@
 # Xscriptor GNOME Terminal Themes
 
-<p align="center">
-  <img src="./previews/preview2.jpg" alt="Preview" width="500"/>
-  <img src="./previews/preview1.jpg" alt="Preview" width="500"/>
-</p>
-
 ## Files
 - `install.sh`: Installs theme profiles and adds aliases for switching the default profile.
 - `themes/*.sh`: Optional scripts that apply colors to the default profile using dconf.

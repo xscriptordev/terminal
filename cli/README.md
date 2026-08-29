@@ -23,7 +23,7 @@
   </tr>
   <tr>
     <td><strong>GitNapse</strong></td>
-    <td>Colour themes for <a href="https://github.com/xscriptor/gitnapse">GitNapse</a>, the TUI client for GitHub. See the <a href="./gitnapse/README.md">GitNapse README</a>.</td>
+    <td>Colour themes for <a href="https://github.com/xscriptor-colors/terminal/tree/main/cli/gitnapse">GitNapse</a>, the TUI client for GitHub. See the <a href="./gitnapse/README.md">GitNapse README</a>.</td>
   </tr>
 </table>
 

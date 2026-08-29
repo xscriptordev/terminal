@@ -2,10 +2,6 @@
 
 <p>Starship themes generated from the <a href="../colors.md">X colour palettes</a> following the <a href="../README.md#canonical-colour-mapping">canonical colour mapping</a>. Pick a theme and point <code>STARSHIP_CONFIG</code> to it.</p>
 
-<h2>Preview</h2>
-
-<p align="center"><img src="https://raw.githubusercontent.com/xscriptor/xassets/main/xrepos/terminal/prompts/previews/starship_preview.png" width="500" alt="Starship theme preview" /></p>
-
 <h2>Quick Start</h2>
 
 <pre><code>export STARSHIP_CONFIG="$PWD/prompts/starship/themes/x.toml"
